@@ -1,0 +1,75 @@
+{
+	"id": "RLSA-2023:4635",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2023:4635",
+				"title": "Important: rust-toolset:rhel8 security update",
+				"description": "Rust Toolset provides the Rust programming language compiler rustc, the cargo build tool and dependency manager, and required libraries. \n\nSecurity Fix(es):\n\n* rust-cargo: cargo does not respect the umask when extracting dependencies (CVE-2023-38497)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38497"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2228038"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2023:4635"
+					}
+				],
+				"published": "2023-08-24T04:21:04.204171Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2023-38497",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38497"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR"
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2023/RLSA-2023:4635.json"
+		]
+	}
+}

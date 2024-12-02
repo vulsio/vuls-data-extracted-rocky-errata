@@ -1,0 +1,629 @@
+{
+	"id": "RLSA-2024:4623",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2024:4623",
+				"title": "Important: qt5-qtbase security update",
+				"description": "Qt is a software toolkit for developing applications. The qt5-base packages contain base tools for string, xml, and network handling in Qt. \n\nSecurity Fix(es):\n\n* qtbase: qtbase: Delay any communication until encrypted() can be responded to (CVE-2024-39936)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39936"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2295867"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2024:4623"
+					}
+				],
+				"published": "2024-07-26T12:33:55.590001Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2024-39936",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+							"base_score": 8.6,
+							"base_severity": "HIGH",
+							"temporal_score": 8.6,
+							"temporal_severity": "HIGH",
+							"environmental_score": 8.6,
+							"environmental_severity": "HIGH"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-367"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39936"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:9",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"src",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-common",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-debugsource",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-devel",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-devel-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-examples",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-examples-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-gui",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-gui-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-mysql",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-mysql-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-odbc",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-odbc-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-postgresql",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-postgresql-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-private-devel",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "qt5-qtbase-static",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:5.15.9-10.el9_4"
+											}
+										],
+										"fixed": [
+											"0:5.15.9-10.el9_4"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:4623.json"
+		]
+	}
+}

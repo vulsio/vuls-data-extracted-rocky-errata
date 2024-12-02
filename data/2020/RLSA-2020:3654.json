@@ -1,0 +1,213 @@
+{
+	"id": "RLSA-2020:3654",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2020:3654",
+				"title": "Moderate: libcroco security update",
+				"description": "The libcroco is a standalone Cascading Style Sheet level 2 (CSS2) parsing and manipulation library. \n\nSecurity Fix(es):\n\n* libcroco: Stack overflow in function cr_parser_parse_any_core in cr-parser.c (CVE-2020-12825)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12825"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1835377"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2020:3654"
+					}
+				],
+				"published": "2020-09-08T08:36:30Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2020-12825",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+							"base_score": 7.1,
+							"base_severity": "HIGH",
+							"temporal_score": 7.1,
+							"temporal_severity": "HIGH",
+							"environmental_score": 7.1,
+							"environmental_severity": "HIGH"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-674->CWE-121"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12825"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libcroco",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"src",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:0.6.12-4.el8_2.1"
+											}
+										],
+										"fixed": [
+											"0:0.6.12-4.el8_2.1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libcroco-debuginfo",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:0.6.12-4.el8_2.1"
+											}
+										],
+										"fixed": [
+											"0:0.6.12-4.el8_2.1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libcroco-debugsource",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:0.6.12-4.el8_2.1"
+											}
+										],
+										"fixed": [
+											"0:0.6.12-4.el8_2.1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libcroco-devel",
+										"architectures": [
+											"aarch64",
+											"i686",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:0.6.12-4.el8_2.1"
+											}
+										],
+										"fixed": [
+											"0:0.6.12-4.el8_2.1"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2020/RLSA-2020:3654.json"
+		]
+	}
+}

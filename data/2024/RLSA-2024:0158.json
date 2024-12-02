@@ -1,0 +1,541 @@
+{
+	"id": "RLSA-2024:0158",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2024:0158",
+				"title": "Important: .NET 6.0 security update",
+				"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.126 and .NET Runtime 6.0.26.\n\nSecurity Fix(es):\n\n* dotnet: Information Disclosure: MD.SqlClient(MDS) & System.data.SQLClient (SDS) (CVE-2024-0056)\n\n* dotnet: X509 Certificates - Validation Bypass across Azure (CVE-2024-0057)\n\n* dotnet: .NET Denial of Service Vulnerability (CVE-2024-21319)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0056"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0057"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21319"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2255384"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2255386"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2257566"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2024:0158"
+					}
+				],
+				"published": "2024-01-12T19:57:42.284423Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2024-0056",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0056"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-0057",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0057"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-21319",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21319"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "aspnetcore-runtime-6.0",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "aspnetcore-targeting-pack-6.0",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-apphost-pack-6.0",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-apphost-pack-6.0-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-hostfxr-6.0",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-hostfxr-6.0-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-runtime-6.0",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-runtime-6.0-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-sdk-6.0",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.126-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.126-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-sdk-6.0-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.126-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.126-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-sdk-6.0-source-built-artifacts",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.126-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.126-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-targeting-pack-6.0",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.26-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.26-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-templates-6.0",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.126-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.126-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet6.0",
+										"architectures": [
+											"src"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.126-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.126-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet6.0-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.126-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.126-1.el8_9"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet6.0-debugsource",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:6.0.126-1.el8_9"
+											}
+										],
+										"fixed": [
+											"0:6.0.126-1.el8_9"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:0158.json"
+		]
+	}
+}

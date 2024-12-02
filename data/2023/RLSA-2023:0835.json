@@ -1,0 +1,204 @@
+{
+	"id": "RLSA-2023:0835",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2023:0835",
+				"title": "Moderate: python-setuptools security update",
+				"description": "The python-setuptools package provides a collection of enhancements to Python distribution utilities allowing convenient building and distribution of Python packages.\n\nSecurity Fix(es):\n\n* pypa-setuptools: Regular Expression Denial of Service (ReDoS) in package_index.py (CVE-2022-40897)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40897"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2158559"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2023:0835"
+					}
+				],
+				"published": "2023-02-22T01:08:44.136543Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2022-40897",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+							"base_score": 5.9,
+							"base_severity": "MEDIUM",
+							"temporal_score": 5.9,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 5.9,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-185"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40897"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "platform-python-setuptools",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:39.2.0-6.el8_7.1"
+											}
+										],
+										"fixed": [
+											"0:39.2.0-6.el8_7.1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "python-setuptools",
+										"architectures": [
+											"src"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:39.2.0-6.el8_7.1"
+											}
+										],
+										"fixed": [
+											"0:39.2.0-6.el8_7.1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "python3-setuptools",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:39.2.0-6.el8_7.1"
+											}
+										],
+										"fixed": [
+											"0:39.2.0-6.el8_7.1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "python3-setuptools-wheel",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:39.2.0-6.el8_7.1"
+											}
+										],
+										"fixed": [
+											"0:39.2.0-6.el8_7.1"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2023/RLSA-2023:0835.json"
+		]
+	}
+}

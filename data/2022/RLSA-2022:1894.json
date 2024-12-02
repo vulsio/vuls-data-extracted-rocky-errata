@@ -1,0 +1,102 @@
+{
+	"id": "RLSA-2022:1894",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2022:1894",
+				"title": "Moderate: rust-toolset:rhel8 security, bug fix, and enhancement update",
+				"description": "Rust Toolset provides the Rust programming language compiler rustc, the cargo build tool and dependency manager, and required libraries. \n\nThe following packages have been upgraded to a later upstream version: rust (1.58.0). (BZ#2002883)\n\nSecurity Fix(es):\n\n* rust: Race condition in remove_dir_all leading to removal of files outside of the directory being removed (CVE-2022-21658)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21658"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1980080"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2041504"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2022:1894"
+					}
+				],
+				"published": "2022-05-10T08:06:44Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2022-21658",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+							"base_score": 5.3,
+							"base_severity": "MEDIUM",
+							"temporal_score": 5.3,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 5.3,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"(CWE-363|CWE-367)"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21658"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR"
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2022/RLSA-2022:1894.json"
+		]
+	}
+}

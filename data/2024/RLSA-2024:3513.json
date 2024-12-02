@@ -1,0 +1,165 @@
+{
+	"id": "RLSA-2024:3513",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2024:3513",
+				"title": "Important: less security update",
+				"description": "The \"less\" utility is a text file browser that resembles \"more\", but allows users to move backwards in the file as well as forwards. Since \"less\" does not read the entire input file at startup, it also starts more quickly than ordinary text editors.\n\nSecurity Fix(es):\n\n* less: OS command injection (CVE-2024-32487)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-32487"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2274980"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2024:3513"
+					}
+				],
+				"published": "2024-06-14T14:00:33.093068Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2024-32487",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-32487"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:9",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "less",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"src",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:590-4.el9_4"
+											}
+										],
+										"fixed": [
+											"0:590-4.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "less-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:590-4.el9_4"
+											}
+										],
+										"fixed": [
+											"0:590-4.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "less-debugsource",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:590-4.el9_4"
+											}
+										],
+										"fixed": [
+											"0:590-4.el9_4"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:3513.json"
+		]
+	}
+}

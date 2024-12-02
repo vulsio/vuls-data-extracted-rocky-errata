@@ -1,0 +1,898 @@
+{
+	"id": "RXSA-2023:7549",
+	"advisories": [
+		{
+			"content": {
+				"id": "RXSA-2023:7549",
+				"title": "Important: kernel security and bug fix update",
+				"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: bpf: Incorrect verifier pruning leads to unsafe code paths being incorrectly marked as safe (CVE-2023-2163)\n\n* kernel: tun: bugs for oversize packet when napi frags enabled in tun_napi_alloc_frags (CVE-2023-3812)\n\n* kernel: use after free in nvmet_tcp_free_crypto in NVMe (CVE-2023-5178)\n\n* kernel: use-after-free due to race condition occurring in dvb_register_device() (CVE-2022-45884)\n\n* kernel: use-after-free due to race condition occurring in dvb_net.c (CVE-2022-45886)\n\n* kernel: use-after-free due to race condition occurring in dvb_ca_en50221.c (CVE-2022-45919)\n\n* kernel: use-after-free in smb2_is_status_io_timeout() (CVE-2023-1192)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Random delay receiving packets after bringing up VLAN on top of VF with vf-vlan-pruning enabled (BZ#2240750)\n\n* bpf_jit_limit hit again (BZ#2243011)\n\n* HPE Edgeline 920t resets during kdump context when ice driver is loaded and when system is booted with intel_iommu=on iommu=pt (BZ#2244625)",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45884"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45886"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45919"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1192"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2163"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3812"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5178"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2148510"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2148517"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2151956"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2154178"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2224048"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2240249"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2241924"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RXSA-2023:7549"
+					}
+				],
+				"published": "2023-12-06T23:18:20.925904Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2022-45884",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45884"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2022-45886",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45886"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2022-45919",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45919"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-1192",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1192"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-2163",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2163"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-3812",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3812"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-5178",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5178"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "bpftool",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "bpftool-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel",
+										"architectures": [
+											"aarch64",
+											"src"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-abi-stablelists",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-core",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-cross-headers",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-debug",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-debug-core",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-debug-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-debug-devel",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-debug-modules",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-debug-modules-extra",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-devel",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-doc",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-headers",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-modules",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-modules-extra",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-tools",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-tools-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-tools-libs",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kernel-tools-libs-devel",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "perf",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "perf-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "python3-perf",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "python3-perf-debuginfo",
+										"architectures": [
+											"aarch64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-513.9.1.el8_9.cloud"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-513.9.1.el8_9.cloud"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2023/RXSA-2023:7549.json"
+		]
+	}
+}

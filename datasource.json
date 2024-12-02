@@ -1,0 +1,14 @@
+{
+	"id": "rocky-errata",
+	"name": "Rocky Linux Errata",
+	"raw": [
+		{
+			"url": "https://github.com/vulsio/vuls-data-raw-rocky-errata",
+			"commit": "5cacba48e6b0ad4dc1685afeb6f78c008bf0ebe6",
+			"date": "2024-12-02T06:08:33Z"
+		}
+	],
+	"extracted": {
+		"url": "https://github.com/vulsio/vuls-data-extracted-rocky-errata"
+	}
+}

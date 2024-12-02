@@ -1,0 +1,1072 @@
+{
+	"id": "RLSA-2023:1909",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2023:1909",
+				"title": "Important: java-1.8.0-openjdk security and bug fix update",
+				"description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper connection handling during TLS handshake (8294474) (CVE-2023-21930)\n\n* OpenJDK: Swing HTML parsing issue (8296832) (CVE-2023-21939)\n\n* OpenJDK: incorrect enqueue of references in garbage collector (8298191) (CVE-2023-21954)\n\n* OpenJDK: certificate validation issue in TLS session negotiation (8298310) (CVE-2023-21967)\n\n* OpenJDK: missing string checks for NULL characters (8296622) (CVE-2023-21937)\n\n* OpenJDK: incorrect handling of NULL characters in ProcessBuilder (8295304) (CVE-2023-21938)\n\n* OpenJDK: missing check for slash characters in URI-to-path conversion (8298667) (CVE-2023-21968)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* The RSAPSSSignature implementation works with RSA keys via the SunRSASign provider. However, it did not fully check that the RSA key could be used by the provider before attempting to do so, leading to the possibility of errors being returned with custom security providers. The implementation now validates RSA keys and will allow other providers to handle such keys where it cannot. (RHBZ#2188024)",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21930"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21937"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21938"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21939"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21954"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21967"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21968"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2187435"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2187441"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2187704"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2187724"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2187758"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2187790"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2187802"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2188024"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2023:1909"
+					}
+				],
+				"published": "2023-04-26T15:28:57.893531Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2023-21930",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21930"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-21937",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21937"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-21938",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21938"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-21939",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21939"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-21954",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21954"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-21967",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21967"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-21968",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21968"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:9",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"src",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-debugsource",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-demo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-demo-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-demo-fastdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-demo-fastdebug-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-demo-slowdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-demo-slowdebug-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-devel",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-devel-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-devel-fastdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-devel-fastdebug-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-devel-slowdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-devel-slowdebug-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-fastdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-fastdebug-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-headless",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-headless-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-headless-fastdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-headless-fastdebug-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-headless-slowdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-headless-slowdebug-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-javadoc",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-javadoc-zip",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-slowdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-slowdebug-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-src",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-src-fastdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "java-1.8.0-openjdk-src-slowdebug",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"x86_64"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.0.372.b07-1.el9_1"
+											}
+										],
+										"fixed": [
+											"1:1.8.0.372.b07-1.el9_1"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2023/RLSA-2023:1909.json"
+		]
+	}
+}

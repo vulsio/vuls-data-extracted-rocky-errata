@@ -1,0 +1,2032 @@
+{
+	"id": "RLSA-2024:1427",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2024:1427",
+				"title": "Important: libreoffice security update",
+				"description": "LibreOffice is an open source, community-developed office productivity suite. It includes key desktop applications, such as a word processor, a spreadsheet, a presentation manager, a formula editor, and a drawing program. LibreOffice replaces OpenOffice and provides a similar but enhanced and extended office suite.\n\nSecurity Fix(es):\n\n* CVE-2023-6186 libreoffice: various flaws (JIRA:Rocky Linux-20657)\n* CVE-2023-6185 libreoffice: various flaws (JIRA:Rocky Linux-20657)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6185"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6186"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2024:1427"
+					}
+				],
+				"published": "2024-05-10T14:32:53.047364Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2023-6185",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6185"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-6186",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6186"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:9",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-af",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-bg",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-ca",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-cs",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-da",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-de",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-dsb",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-el",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-en",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-es",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-fa",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-fi",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-fr",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-ga",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-hr",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-hsb",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-hu",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-is",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-it",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-ja",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-ko",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-lb",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-lt",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-mn",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-nl",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-pl",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-pt",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-ro",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-ru",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-sk",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-sl",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-sr",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-sv",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-tr",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-vi",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-vro",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "autocorr-zh",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice",
+										"architectures": [
+											"ppc64le",
+											"src"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-base",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-base-debuginfo",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-calc",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-calc-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-core",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-core-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-data",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-debuginfo",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-debugsource",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-draw",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-emailmerge",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-graphicfilter",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-graphicfilter-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-help-en",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-impress",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-impress-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-langpack-en",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-math",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-ogltrans",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-ogltrans-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-opensymbol-fonts",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-pdfimport",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-pdfimport-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-pyuno",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-pyuno-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-sdk",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-sdk-debuginfo",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-sdk-doc",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-ure",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-ure-common",
+										"architectures": [
+											"noarch"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-ure-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-writer",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-writer-debuginfo",
+										"architectures": [
+											"aarch64",
+											"ppc64le",
+											"s390x"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-x11",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libreoffice-x11-debuginfo",
+										"architectures": [
+											"ppc64le"
+										]
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:7.1.8.1-12.el9_3"
+											}
+										],
+										"fixed": [
+											"1:7.1.8.1-12.el9_3"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:1427.json"
+		]
+	}
+}
