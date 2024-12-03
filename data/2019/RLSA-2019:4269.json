@@ -60,12 +60,7 @@
 					}
 				],
 				"published": "2019-12-17T09:19:28Z"
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		}
 	],
 	"vulnerabilities": [
@@ -101,12 +96,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16884"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -140,12 +130,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18466"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -179,12 +164,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9512"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -218,24 +198,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9514"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		}
-	],
-	"detections": [
-		{
-			"ecosystem": "rocky:8",
-			"conditions": [
-				{
-					"criteria": {
-						"operator": "OR"
-					}
-				}
-			]
+			}
 		}
 	],
 	"data_source": {

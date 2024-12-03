@@ -954,7 +954,6 @@
 									"package": {
 										"name": "libreoffice",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},

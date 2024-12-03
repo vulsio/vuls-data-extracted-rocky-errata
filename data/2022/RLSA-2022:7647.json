@@ -100,12 +100,7 @@
 					}
 				],
 				"published": "2022-11-08T06:25:28Z"
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		}
 	],
 	"vulnerabilities": [
@@ -141,12 +136,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22719"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -180,12 +170,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22721"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -219,12 +204,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23943"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -258,12 +238,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26377"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -297,12 +272,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28614"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -336,12 +306,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28615"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -375,12 +340,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29404"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -414,12 +374,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30522"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -453,12 +408,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30556"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -492,24 +442,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31813"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		}
-	],
-	"detections": [
-		{
-			"ecosystem": "rocky:8",
-			"conditions": [
-				{
-					"criteria": {
-						"operator": "OR"
-					}
-				}
-			]
+			}
 		}
 	],
 	"data_source": {

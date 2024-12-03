@@ -144,7 +144,6 @@
 									"package": {
 										"name": "frr",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},

@@ -526,8 +526,7 @@
 									"package": {
 										"name": "nodejs-nodemon",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

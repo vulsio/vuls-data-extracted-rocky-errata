@@ -150,8 +150,7 @@
 									"package": {
 										"name": "nghttp2",
 										"architectures": [
-											"aarch64",
-											"src"
+											"aarch64"
 										]
 									},
 									"affected": {

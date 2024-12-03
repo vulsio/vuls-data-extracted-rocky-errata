@@ -72,8 +72,7 @@
 									"package": {
 										"name": "perl-Convert-ASN1",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

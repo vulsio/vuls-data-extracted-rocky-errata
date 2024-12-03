@@ -156,7 +156,6 @@
 										"architectures": [
 											"ppc64le",
 											"s390x",
-											"src",
 											"x86_64"
 										]
 									},

@@ -151,7 +151,6 @@
 										"name": "java-1.8.0-openjdk",
 										"architectures": [
 											"ppc64le",
-											"src",
 											"x86_64"
 										]
 									},

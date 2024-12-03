@@ -72,8 +72,7 @@
 									"package": {
 										"name": "tracker-miners",
 										"architectures": [
-											"aarch64",
-											"src"
+											"aarch64"
 										]
 									},
 									"affected": {

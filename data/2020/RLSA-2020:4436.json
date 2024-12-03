@@ -115,8 +115,7 @@
 									"package": {
 										"name": "appstream-data",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -144,7 +143,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},

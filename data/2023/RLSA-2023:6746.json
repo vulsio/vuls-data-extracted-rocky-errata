@@ -150,8 +150,7 @@
 									"package": {
 										"name": "nghttp2",
 										"architectures": [
-											"s390x",
-											"src"
+											"s390x"
 										]
 									},
 									"affected": {

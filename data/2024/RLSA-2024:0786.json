@@ -73,7 +73,6 @@
 										"name": "nss",
 										"architectures": [
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},

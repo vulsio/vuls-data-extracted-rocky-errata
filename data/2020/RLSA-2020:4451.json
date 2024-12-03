@@ -2636,7 +2636,6 @@
 										"name": "LibRaw",
 										"architectures": [
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2745,7 +2744,6 @@
 										"name": "PackageKit",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2773,7 +2771,6 @@
 										"name": "PackageKit",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -3462,7 +3459,6 @@
 									"package": {
 										"name": "dleyna-renderer",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},
@@ -3571,7 +3567,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -3709,7 +3704,6 @@
 										"name": "gnome-remote-desktop",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -3791,7 +3785,6 @@
 										"name": "gnome-session",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -3928,7 +3921,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -4039,7 +4031,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -4234,7 +4225,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -4347,7 +4337,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -4593,32 +4582,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pipewire0.2",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:0.2.7-6.el8"
-											}
-										],
-										"fixed": [
-											"0:0.2.7-6.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "pipewire0.2-debugsource",
 										"architectures": [
 											"aarch64",
@@ -4735,7 +4698,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -4804,32 +4766,6 @@
 										],
 										"fixed": [
 											"0:1.15-3.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
-										"name": "pygobject3",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:3.28.3-2.el8"
-											}
-										],
-										"fixed": [
-											"0:3.28.3-2.el8"
 										]
 									}
 								}
@@ -5042,7 +4978,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -5182,7 +5117,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -5323,7 +5257,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -5407,7 +5340,6 @@
 										"name": "xdg-desktop-portal-gtk",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

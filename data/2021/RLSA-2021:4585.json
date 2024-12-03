@@ -96,7 +96,6 @@
 										"name": "gcc-toolset-10-gcc",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

@@ -72,8 +72,7 @@
 									"package": {
 										"name": "webkit2gtk3",
 										"architectures": [
-											"aarch64",
-											"src"
+											"aarch64"
 										]
 									},
 									"affected": {

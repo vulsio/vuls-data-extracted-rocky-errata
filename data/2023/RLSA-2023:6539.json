@@ -72,8 +72,7 @@
 									"package": {
 										"name": "perl-CPAN",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

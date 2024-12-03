@@ -160,7 +160,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},

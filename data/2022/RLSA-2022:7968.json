@@ -219,7 +219,6 @@
 									"package": {
 										"name": "virt-v2v",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},

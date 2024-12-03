@@ -716,7 +716,6 @@
 									"package": {
 										"name": "smartmontools",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},

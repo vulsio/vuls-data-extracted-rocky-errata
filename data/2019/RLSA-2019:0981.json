@@ -44,12 +44,7 @@
 					}
 				],
 				"published": "2019-05-07T03:40:00Z"
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		}
 	],
 	"vulnerabilities": [
@@ -77,12 +72,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7164"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -116,12 +106,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7548"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -155,104 +140,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9636"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		}
-	],
-	"detections": [
-		{
-			"ecosystem": "rocky:8",
-			"conditions": [
-				{
-					"criteria": {
-						"operator": "OR",
-						"criterions": [
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
-										"name": "python-lxml",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:4.2.3-3.el8"
-											}
-										],
-										"fixed": [
-											"0:4.2.3-3.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
-										"name": "python-markupsafe",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:0.23-19.el8"
-											}
-										],
-										"fixed": [
-											"0:0.23-19.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
-										"name": "python-psycopg2",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:2.7.5-7.el8"
-											}
-										],
-										"fixed": [
-											"0:2.7.5-7.el8"
-										]
-									}
-								}
-							}
-						]
-					}
-				}
-			]
+			}
 		}
 	],
 	"data_source": {

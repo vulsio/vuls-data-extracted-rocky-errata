@@ -354,32 +354,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-qt5",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:5.13.1-1.el8"
-											}
-										],
-										"fixed": [
-											"0:5.13.1-1.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "python-qt5-debuginfo",
 										"architectures": [
 											"aarch64",
@@ -606,7 +580,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -687,32 +660,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:5.12.5-3.el8"
-											}
-										],
-										"fixed": [
-											"0:5.12.5-3.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "qt5-devel",
 										"architectures": [
 											"noarch"
@@ -743,7 +690,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -938,7 +884,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1077,7 +1022,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1244,7 +1188,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1465,8 +1408,7 @@
 									"package": {
 										"name": "qt5-qtdoc",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -1494,7 +1436,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1579,7 +1520,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1664,7 +1604,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1831,7 +1770,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1998,7 +1936,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2137,7 +2074,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2304,7 +2240,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2471,7 +2406,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2638,7 +2572,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2777,7 +2710,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2944,7 +2876,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -3109,8 +3040,7 @@
 									"package": {
 										"name": "qt5-qttranslations",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -3138,7 +3068,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -3333,7 +3262,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -3500,7 +3428,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -3613,7 +3540,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},

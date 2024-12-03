@@ -170,8 +170,7 @@
 										"architectures": [
 											"aarch64",
 											"ppc64le",
-											"s390x",
-											"src"
+											"s390x"
 										]
 									},
 									"affected": {

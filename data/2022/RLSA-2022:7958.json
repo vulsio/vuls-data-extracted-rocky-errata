@@ -145,7 +145,6 @@
 										"architectures": [
 											"aarch64",
 											"s390x",
-											"src",
 											"x86_64"
 										]
 									},

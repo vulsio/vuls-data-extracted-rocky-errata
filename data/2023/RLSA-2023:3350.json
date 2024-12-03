@@ -72,7 +72,6 @@
 									"package": {
 										"name": "kernel-rt",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},

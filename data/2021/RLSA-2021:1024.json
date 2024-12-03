@@ -135,7 +135,6 @@
 										"name": "openssl",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

@@ -2199,7 +2199,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2479,7 +2478,6 @@
 										"name": "gnome-desktop3",
 										"architectures": [
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2673,7 +2671,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2784,7 +2781,6 @@
 									"package": {
 										"name": "pidgin",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},

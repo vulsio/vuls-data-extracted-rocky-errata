@@ -124,8 +124,7 @@
 									"package": {
 										"name": "nodejs",
 										"architectures": [
-											"aarch64",
-											"src"
+											"aarch64"
 										]
 									},
 									"affected": {

@@ -203,7 +203,6 @@
 										"name": "resource-agents",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

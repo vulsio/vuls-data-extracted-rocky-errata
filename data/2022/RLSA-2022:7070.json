@@ -237,7 +237,6 @@
 										"name": "firefox",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -265,7 +264,6 @@
 										"name": "firefox",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

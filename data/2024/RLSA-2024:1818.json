@@ -160,7 +160,6 @@
 										"name": "java-1.8.0-openjdk",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1064,7 +1063,6 @@
 											"aarch64",
 											"ppc64le",
 											"s390x",
-											"src",
 											"x86_64"
 										]
 									},

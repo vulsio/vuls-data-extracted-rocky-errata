@@ -145,7 +145,6 @@
 										"name": "gimp",
 										"architectures": [
 											"ppc64le",
-											"src",
 											"x86_64"
 										]
 									},

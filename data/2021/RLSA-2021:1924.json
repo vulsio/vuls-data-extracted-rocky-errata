@@ -97,32 +97,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "spice",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:0.14.3-4.el8"
-											}
-										],
-										"fixed": [
-											"0:0.14.3-4.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "spice-debugsource",
 										"architectures": [
 											"aarch64",

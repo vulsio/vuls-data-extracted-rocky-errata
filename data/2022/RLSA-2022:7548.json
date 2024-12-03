@@ -123,8 +123,7 @@
 									"package": {
 										"name": "cockpit-composer",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -150,8 +149,7 @@
 									"package": {
 										"name": "osbuild",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -308,7 +306,6 @@
 										"name": "weldr-client",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

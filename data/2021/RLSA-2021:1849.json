@@ -429,7 +429,6 @@
 										"name": "freerdp",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -457,7 +456,6 @@
 										"name": "freerdp",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

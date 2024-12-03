@@ -316,7 +316,6 @@
 									"package": {
 										"name": "thunderbird",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},

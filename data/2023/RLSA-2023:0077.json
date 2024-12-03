@@ -448,32 +448,6 @@
 										]
 									}
 								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
-										"name": "dotnet6.0",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:6.0.113-1.el9_1"
-											}
-										],
-										"fixed": [
-											"0:6.0.113-1.el9_1"
-										]
-									}
-								}
 							}
 						]
 					}

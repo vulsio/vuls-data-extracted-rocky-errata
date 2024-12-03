@@ -100,7 +100,6 @@
 										"name": "flatpak-builder",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

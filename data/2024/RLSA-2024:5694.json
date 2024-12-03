@@ -72,8 +72,7 @@
 									"package": {
 										"name": "tomcat",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

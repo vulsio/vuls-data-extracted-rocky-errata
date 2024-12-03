@@ -705,8 +705,7 @@
 									"package": {
 										"name": "linux-firmware",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

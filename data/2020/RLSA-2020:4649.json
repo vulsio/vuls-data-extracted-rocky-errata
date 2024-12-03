@@ -108,7 +108,6 @@
 										"name": "bogofilter",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -190,7 +189,6 @@
 										"name": "evolution-mapi",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

@@ -96,7 +96,6 @@
 										"name": "flatpak",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},
@@ -124,7 +123,6 @@
 										"name": "flatpak",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

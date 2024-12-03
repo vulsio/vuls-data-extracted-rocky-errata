@@ -511,7 +511,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},
@@ -678,7 +677,6 @@
 										"name": "samba",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

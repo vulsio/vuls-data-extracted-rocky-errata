@@ -125,32 +125,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "1:2.02-123.el8"
-											}
-										],
-										"fixed": [
-											"1:2.02-123.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "grub2-common",
 										"architectures": [
 											"noarch"

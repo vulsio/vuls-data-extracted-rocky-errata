@@ -1059,7 +1059,6 @@
 										"name": "libreoffice",
 										"architectures": [
 											"ppc64le",
-											"src",
 											"x86_64"
 										]
 									},

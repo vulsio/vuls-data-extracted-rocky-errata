@@ -95,8 +95,7 @@
 									"package": {
 										"name": "prometheus-jmx-exporter",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

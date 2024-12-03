@@ -96,7 +96,6 @@
 										"name": "open-vm-tools",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

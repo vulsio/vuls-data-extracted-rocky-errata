@@ -140,32 +140,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vim",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "2:8.0.1763-19.el8_6.2"
-											}
-										],
-										"fixed": [
-											"2:8.0.1763-19.el8_6.2"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "vim-X11",
 										"architectures": [
 											"aarch64",

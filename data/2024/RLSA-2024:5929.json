@@ -32,12 +32,7 @@
 					}
 				],
 				"published": "2024-09-17T00:55:59.307259Z"
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:9"
-				}
-			]
+			}
 		}
 	],
 	"vulnerabilities": [
@@ -73,12 +68,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4317"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:9"
-				}
-			]
+			}
 		},
 		{
 			"content": {
@@ -112,24 +102,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-7348"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:9"
-				}
-			]
-		}
-	],
-	"detections": [
-		{
-			"ecosystem": "rocky:9",
-			"conditions": [
-				{
-					"criteria": {
-						"operator": "OR"
-					}
-				}
-			]
+			}
 		}
 	],
 	"data_source": {

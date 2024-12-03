@@ -28,12 +28,7 @@
 					}
 				],
 				"published": "2024-03-12T15:42:50.027135Z"
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:9"
-				}
-			]
+			}
 		}
 	],
 	"vulnerabilities": [
@@ -46,24 +41,7 @@
 						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0985"
 					}
 				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:9"
-				}
-			]
-		}
-	],
-	"detections": [
-		{
-			"ecosystem": "rocky:9",
-			"conditions": [
-				{
-					"criteria": {
-						"operator": "OR"
-					}
-				}
-			]
+			}
 		}
 	],
 	"data_source": {

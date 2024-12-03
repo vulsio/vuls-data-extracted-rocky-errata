@@ -339,7 +339,6 @@
 										"name": "java-17-openjdk",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

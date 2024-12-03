@@ -99,8 +99,7 @@
 									"package": {
 										"name": "qt5",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

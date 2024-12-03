@@ -72,8 +72,7 @@
 									"package": {
 										"name": "postgresql-jdbc",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

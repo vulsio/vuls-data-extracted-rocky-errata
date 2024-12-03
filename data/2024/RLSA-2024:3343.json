@@ -121,7 +121,6 @@
 										"name": "xorg-x11-server-Xwayland",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

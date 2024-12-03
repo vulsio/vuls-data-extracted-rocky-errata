@@ -1050,8 +1050,7 @@
 									"package": {
 										"name": "libreoffice",
 										"architectures": [
-											"ppc64le",
-											"src"
+											"ppc64le"
 										]
 									},
 									"affected": {

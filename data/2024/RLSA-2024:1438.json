@@ -72,8 +72,7 @@
 									"package": {
 										"name": "nodejs",
 										"architectures": [
-											"ppc64le",
-											"src"
+											"ppc64le"
 										]
 									},
 									"affected": {

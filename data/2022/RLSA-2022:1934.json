@@ -96,7 +96,6 @@
 										"name": "mod_auth_mellon",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

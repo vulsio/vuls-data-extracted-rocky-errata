@@ -93,32 +93,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dhcp",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "12:4.3.6-44.el8_4.1"
-											}
-										],
-										"fixed": [
-											"12:4.3.6-44.el8_4.1"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "dhcp-client",
 										"architectures": [
 											"aarch64",

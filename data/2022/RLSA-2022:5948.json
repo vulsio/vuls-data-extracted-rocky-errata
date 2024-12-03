@@ -1786,7 +1786,6 @@
 											"aarch64",
 											"ppc64le",
 											"s390x",
-											"src",
 											"x86_64"
 										]
 									},
@@ -1874,7 +1873,6 @@
 											"aarch64",
 											"ppc64le",
 											"s390x",
-											"src",
 											"x86_64"
 										]
 									},
@@ -2568,8 +2566,7 @@
 									"package": {
 										"name": "mysql-selinux",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

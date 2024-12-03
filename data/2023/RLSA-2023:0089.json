@@ -1068,32 +1068,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libreoffice",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "1:6.4.7.2-12.el8_7"
-											}
-										],
-										"fixed": [
-											"1:6.4.7.2-12.el8_7"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "libreoffice-base",
 										"architectures": [
 											"x86_64"

@@ -617,7 +617,6 @@
 										"name": "exiv2",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

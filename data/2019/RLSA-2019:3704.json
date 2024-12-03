@@ -97,32 +97,6 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "numpy",
-										"architectures": [
-											"src"
-										]
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "1:1.14.3-9.el8"
-											}
-										],
-										"fixed": [
-											"1:1.14.3-9.el8"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
 										"name": "python3-numpy",
 										"architectures": [
 											"aarch64",

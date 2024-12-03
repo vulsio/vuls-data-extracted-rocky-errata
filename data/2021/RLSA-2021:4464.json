@@ -191,8 +191,7 @@
 									"package": {
 										"name": "dnf",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -270,8 +269,7 @@
 									"package": {
 										"name": "dnf-plugins-core",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -299,7 +297,6 @@
 										"architectures": [
 											"aarch64",
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},

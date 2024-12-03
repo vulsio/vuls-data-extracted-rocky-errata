@@ -72,8 +72,7 @@
 									"package": {
 										"name": "gnutls",
 										"architectures": [
-											"aarch64",
-											"src"
+											"aarch64"
 										]
 									},
 									"affected": {

@@ -96,7 +96,6 @@
 										"name": "zsh",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

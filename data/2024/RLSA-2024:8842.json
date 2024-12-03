@@ -72,8 +72,7 @@
 									"package": {
 										"name": "python3.12-urllib3",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {

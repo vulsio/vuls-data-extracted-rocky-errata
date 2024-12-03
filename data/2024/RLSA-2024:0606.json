@@ -96,8 +96,7 @@
 									"package": {
 										"name": "openssh",
 										"architectures": [
-											"aarch64",
-											"src"
+											"aarch64"
 										]
 									},
 									"affected": {

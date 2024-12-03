@@ -152,7 +152,6 @@
 										"architectures": [
 											"aarch64",
 											"ppc64le",
-											"src",
 											"x86_64"
 										]
 									},

@@ -341,8 +341,7 @@
 										"name": "samba",
 										"architectures": [
 											"aarch64",
-											"ppc64le",
-											"src"
+											"ppc64le"
 										]
 									},
 									"affected": {

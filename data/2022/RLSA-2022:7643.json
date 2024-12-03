@@ -147,7 +147,6 @@
 										"name": "bind9.16",
 										"architectures": [
 											"aarch64",
-											"src",
 											"x86_64"
 										]
 									},

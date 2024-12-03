@@ -121,8 +121,7 @@
 										"name": "go-toolset",
 										"architectures": [
 											"ppc64le",
-											"s390x",
-											"src"
+											"s390x"
 										]
 									},
 									"affected": {
@@ -149,8 +148,7 @@
 										"name": "golang",
 										"architectures": [
 											"ppc64le",
-											"s390x",
-											"src"
+											"s390x"
 										]
 									},
 									"affected": {

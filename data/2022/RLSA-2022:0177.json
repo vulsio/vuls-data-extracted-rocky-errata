@@ -96,7 +96,6 @@
 										"name": "gegl04",
 										"architectures": [
 											"i686",
-											"src",
 											"x86_64"
 										]
 									},

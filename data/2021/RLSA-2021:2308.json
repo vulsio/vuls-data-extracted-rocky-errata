@@ -236,7 +236,6 @@
 									"package": {
 										"name": "microcode_ctl",
 										"architectures": [
-											"src",
 											"x86_64"
 										]
 									},

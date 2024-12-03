@@ -73,8 +73,7 @@
 										"name": "apr",
 										"architectures": [
 											"ppc64le",
-											"s390x",
-											"src"
+											"s390x"
 										]
 									},
 									"affected": {

@@ -139,8 +139,7 @@
 									"package": {
 										"name": "cockpit-composer",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -166,8 +165,7 @@
 									"package": {
 										"name": "osbuild",
 										"architectures": [
-											"noarch",
-											"src"
+											"noarch"
 										]
 									},
 									"affected": {
@@ -326,7 +324,6 @@
 											"aarch64",
 											"ppc64le",
 											"s390x",
-											"src",
 											"x86_64"
 										]
 									},
