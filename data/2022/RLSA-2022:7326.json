@@ -93,10 +93,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pki-acme",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pki-acme",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -119,10 +122,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pki-base",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pki-base",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -145,10 +151,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pki-base-java",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pki-base-java",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -171,10 +180,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pki-ca",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pki-ca",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -197,10 +209,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pki-kra",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pki-kra",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -223,10 +238,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pki-server",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pki-server",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -249,13 +267,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pki-symkey",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pki-symkey",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -278,13 +299,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pki-tools",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pki-tools",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -307,10 +331,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-pki",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-pki",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

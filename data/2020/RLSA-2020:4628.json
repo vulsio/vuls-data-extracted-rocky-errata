@@ -156,11 +156,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcmis",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libcmis",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -183,11 +186,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcmis-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libcmis-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -210,11 +216,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcmis-debugsource",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libcmis-debugsource",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

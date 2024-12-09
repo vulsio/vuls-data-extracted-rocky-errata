@@ -94,10 +94,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -120,10 +123,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-askpass",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-askpass",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -146,10 +152,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-askpass-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-askpass-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -172,10 +181,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-cavs",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-cavs",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -198,10 +210,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-cavs-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-cavs-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -224,10 +239,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-clients",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-clients",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -250,10 +268,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-clients-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-clients-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -276,10 +297,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -302,10 +326,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-debugsource",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-debugsource",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -328,10 +355,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-keycat",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-keycat",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -354,10 +384,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-keycat-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-keycat-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -380,10 +413,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-ldap",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-ldap",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -406,10 +442,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-ldap-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-ldap-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -432,10 +471,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-server",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-server",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -458,10 +500,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh-server-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "openssh-server-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -484,10 +529,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pam_ssh_agent_auth",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pam_ssh_agent_auth",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -510,10 +558,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pam_ssh_agent_auth-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pam_ssh_agent_auth-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

@@ -190,10 +190,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -216,10 +219,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-autoipd",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-autoipd",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -242,10 +248,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-autoipd-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-autoipd-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -268,10 +277,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-compat-howl",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-compat-howl",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -294,10 +306,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-compat-howl-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-compat-howl-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -320,10 +335,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-compat-howl-devel",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-compat-howl-devel",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -346,10 +364,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-compat-libdns_sd",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-compat-libdns_sd",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -372,10 +393,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-compat-libdns_sd-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-compat-libdns_sd-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -398,10 +422,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-compat-libdns_sd-devel",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-compat-libdns_sd-devel",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -424,10 +451,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -450,10 +480,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-debugsource",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-debugsource",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -476,10 +509,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-devel",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-devel",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -502,10 +538,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-glib",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-glib",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -528,10 +567,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-glib-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-glib-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -554,10 +596,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-glib-devel",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-glib-devel",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -580,10 +625,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-gobject",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-gobject",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -606,10 +654,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-gobject-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-gobject-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -632,10 +683,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-gobject-devel",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-gobject-devel",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -658,10 +712,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-libs",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-libs",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -684,10 +741,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-libs-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-libs-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -710,10 +770,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-tools",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-tools",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -736,10 +799,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-tools-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-tools-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -762,10 +828,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-ui",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-ui",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -788,10 +857,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-ui-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-ui-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -814,10 +886,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-ui-devel",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-ui-devel",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -840,10 +915,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-ui-gtk3",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-ui-gtk3",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -866,10 +944,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi-ui-gtk3-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "avahi-ui-gtk3-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -892,10 +973,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-avahi",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-avahi",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

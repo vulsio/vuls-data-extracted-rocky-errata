@@ -93,11 +93,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -120,11 +123,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-c++",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-c++",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -147,11 +153,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-c++-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-c++-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -174,12 +183,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -202,11 +214,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-gdb-plugin",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-gdb-plugin",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -229,11 +244,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-gdb-plugin-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-gdb-plugin-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -256,11 +274,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-gfortran",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-gfortran",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -283,11 +304,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-gfortran-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-gfortran-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -310,12 +334,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-plugin-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-plugin-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -338,12 +365,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-gcc-plugin-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-gcc-plugin-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -366,12 +396,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-libasan-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-libasan-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -394,12 +427,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-libatomic-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-libatomic-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -422,12 +458,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-libitm-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-libitm-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -450,11 +489,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-liblsan-devel",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-liblsan-devel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -477,11 +519,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-libquadmath-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-libquadmath-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -504,12 +549,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-libstdc++-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-libstdc++-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -532,11 +580,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-libstdc++-docs",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-libstdc++-docs",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -559,11 +610,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-libtsan-devel",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-libtsan-devel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -586,12 +640,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-libubsan-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-libubsan-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

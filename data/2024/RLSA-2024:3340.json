@@ -94,11 +94,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "aspnetcore-runtime-7.0",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "aspnetcore-runtime-7.0",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -121,11 +124,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "aspnetcore-targeting-pack-7.0",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "aspnetcore-targeting-pack-7.0",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -148,11 +154,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-apphost-pack-7.0",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-apphost-pack-7.0",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -175,11 +184,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-apphost-pack-7.0-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-apphost-pack-7.0-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -202,11 +214,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-hostfxr-7.0",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-hostfxr-7.0",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -229,11 +244,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-hostfxr-7.0-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-hostfxr-7.0-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -256,11 +274,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-runtime-7.0",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-runtime-7.0",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -283,11 +304,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-runtime-7.0-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-runtime-7.0-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -310,11 +334,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-sdk-7.0",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-sdk-7.0",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -337,11 +364,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-sdk-7.0-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-sdk-7.0-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -364,11 +394,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-sdk-7.0-source-built-artifacts",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-sdk-7.0-source-built-artifacts",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -391,11 +424,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-targeting-pack-7.0",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-targeting-pack-7.0",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -418,11 +454,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-templates-7.0",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-templates-7.0",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -445,11 +484,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet7.0-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet7.0-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -472,11 +514,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet7.0-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet7.0-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

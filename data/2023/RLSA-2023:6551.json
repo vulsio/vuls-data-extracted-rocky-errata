@@ -70,13 +70,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "yajl",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "yajl",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -99,12 +102,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "yajl-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "yajl-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -127,12 +133,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "yajl-debugsource",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "yajl-debugsource",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -155,13 +164,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "yajl-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "yajl-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

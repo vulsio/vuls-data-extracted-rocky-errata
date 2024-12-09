@@ -285,12 +285,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebsockets",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebsockets",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -313,12 +316,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebsockets-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebsockets-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -341,12 +347,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebsockets-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebsockets-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -369,12 +378,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebsockets-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebsockets-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -397,12 +409,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebsockets-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebsockets-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -425,11 +440,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebsockets-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebsockets-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -452,11 +470,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebsockets-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebsockets-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

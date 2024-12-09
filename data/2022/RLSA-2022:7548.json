@@ -121,10 +121,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit-composer",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cockpit-composer",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -147,10 +150,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -173,10 +179,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-luks2",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-luks2",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -199,10 +208,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-lvm2",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-lvm2",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -225,10 +237,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-ostree",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-ostree",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -251,10 +266,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-selinux",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-selinux",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -277,10 +295,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-osbuild",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-osbuild",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -303,11 +324,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "weldr-client",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "weldr-client",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -330,11 +354,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "weldr-client-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "weldr-client-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -357,11 +384,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "weldr-client-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "weldr-client-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

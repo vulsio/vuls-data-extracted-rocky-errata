@@ -265,12 +265,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mariadb-connector-c",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mariadb-connector-c",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -293,10 +296,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mariadb-connector-c-config",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mariadb-connector-c-config",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -319,12 +325,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mariadb-connector-c-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mariadb-connector-c-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -347,12 +356,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mariadb-connector-c-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mariadb-connector-c-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -375,12 +387,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mariadb-connector-c-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mariadb-connector-c-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -403,12 +418,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mariadb-connector-c-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mariadb-connector-c-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

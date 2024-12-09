@@ -118,11 +118,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcs",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcs",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -145,11 +148,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcs-snmp",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcs-snmp",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

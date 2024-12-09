@@ -70,10 +70,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -96,11 +99,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-composer",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-composer",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -123,11 +129,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-composer-core",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-composer-core",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -150,11 +159,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-composer-core-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-composer-core-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -177,11 +189,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-composer-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-composer-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -204,11 +219,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-composer-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-composer-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -231,11 +249,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-composer-worker",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-composer-worker",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -258,11 +279,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-composer-worker-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-composer-worker-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -285,10 +309,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-depsolve-dnf",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-depsolve-dnf",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -311,10 +338,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-luks2",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-luks2",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -337,10 +367,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-lvm2",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-lvm2",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -363,10 +396,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-ostree",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-ostree",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -389,10 +425,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osbuild-selinux",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "osbuild-selinux",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -415,10 +454,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-osbuild",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-osbuild",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

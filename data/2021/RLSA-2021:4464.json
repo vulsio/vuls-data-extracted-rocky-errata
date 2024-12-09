@@ -189,10 +189,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dnf",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dnf",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -215,10 +218,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dnf-automatic",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dnf-automatic",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -241,10 +247,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dnf-data",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dnf-data",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -267,10 +276,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dnf-plugins-core",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dnf-plugins-core",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -293,12 +305,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdnf",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdnf",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -321,12 +336,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdnf-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdnf-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -349,12 +367,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdnf-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdnf-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -377,12 +398,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdnf-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdnf-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -405,10 +429,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-dnf",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-dnf",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -431,10 +458,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-dnf-plugin-post-transaction-actions",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-dnf-plugin-post-transaction-actions",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -457,10 +487,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-dnf-plugin-versionlock",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-dnf-plugin-versionlock",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -483,10 +516,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-dnf-plugins-core",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-dnf-plugins-core",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -509,11 +545,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-hawkey",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-hawkey",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -536,11 +575,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-hawkey-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-hawkey-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -563,11 +605,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-libdnf",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-libdnf",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -590,11 +635,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-libdnf-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-libdnf-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -617,10 +665,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "yum",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "yum",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -643,10 +694,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "yum-utils",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "yum-utils",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

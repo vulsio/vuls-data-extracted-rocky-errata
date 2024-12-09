@@ -105,11 +105,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bogofilter",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bogofilter",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -132,11 +135,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bogofilter-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bogofilter-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -159,11 +165,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bogofilter-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bogofilter-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -186,11 +195,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "evolution-mapi",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "evolution-mapi",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -213,11 +225,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "evolution-mapi-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "evolution-mapi-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -240,11 +255,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "evolution-mapi-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "evolution-mapi-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -267,10 +285,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "evolution-mapi-langpacks",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "evolution-mapi-langpacks",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

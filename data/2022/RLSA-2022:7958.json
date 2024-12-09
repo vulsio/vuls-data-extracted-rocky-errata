@@ -141,12 +141,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -169,12 +172,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-appliance",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-appliance",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -197,10 +203,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-bash-completion",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-bash-completion",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -223,12 +232,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -251,12 +263,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-debugsource",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-debugsource",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -279,12 +294,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-devel",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-devel",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -307,12 +325,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-gobject",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-gobject",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -335,12 +356,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-gobject-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-gobject-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -363,12 +387,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-gobject-devel",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-gobject-devel",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -391,10 +418,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-inspect-icons",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-inspect-icons",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -417,10 +447,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-man-pages-ja",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-man-pages-ja",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -443,10 +476,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-man-pages-uk",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-man-pages-uk",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -469,12 +505,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-rescue",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-rescue",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -497,12 +536,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-rescue-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-rescue-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -525,12 +567,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-rsync",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-rsync",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -553,12 +598,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libguestfs-xfs",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libguestfs-xfs",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -581,12 +629,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lua-guestfs",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "lua-guestfs",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -609,12 +660,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lua-guestfs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "lua-guestfs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -637,12 +691,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ocaml-libguestfs",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "ocaml-libguestfs",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -665,12 +722,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ocaml-libguestfs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "ocaml-libguestfs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -693,12 +753,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ocaml-libguestfs-devel",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "ocaml-libguestfs-devel",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -721,12 +784,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "perl-Sys-Guestfs",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "perl-Sys-Guestfs",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -749,12 +815,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "perl-Sys-Guestfs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "perl-Sys-Guestfs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -777,12 +846,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "php-libguestfs",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "php-libguestfs",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -805,12 +877,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "php-libguestfs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "php-libguestfs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -833,12 +908,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-libguestfs",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-libguestfs",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -861,12 +939,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-libguestfs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-libguestfs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -889,12 +970,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ruby-libguestfs",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "ruby-libguestfs",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -917,12 +1001,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ruby-libguestfs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "ruby-libguestfs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

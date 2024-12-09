@@ -93,10 +93,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "prometheus-jmx-exporter",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "prometheus-jmx-exporter",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

@@ -166,12 +166,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "firefox",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "firefox",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -194,12 +197,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "firefox-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "firefox-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -222,12 +228,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "firefox-debugsource",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "firefox-debugsource",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -250,12 +259,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "firefox-x11",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "firefox-x11",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

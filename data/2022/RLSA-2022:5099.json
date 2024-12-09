@@ -422,11 +422,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mokutil",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mokutil",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -449,11 +452,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mokutil-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mokutil-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -476,11 +482,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mokutil-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mokutil-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -503,10 +512,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "shim-aa64",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "shim-aa64",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -529,10 +541,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "shim-aa64",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "shim-aa64",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -555,10 +570,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "shim-x64",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "shim-x64",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -581,10 +599,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "shim-x64",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "shim-x64",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

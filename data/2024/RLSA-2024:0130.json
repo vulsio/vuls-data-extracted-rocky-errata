@@ -142,10 +142,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "frr",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "frr",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -168,10 +171,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "frr-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "frr-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -194,10 +200,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "frr-debugsource",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "frr-debugsource",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -220,10 +229,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "frr-selinux",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "frr-selinux",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

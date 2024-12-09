@@ -148,11 +148,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -175,11 +178,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -202,11 +208,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-debugsource",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-debugsource",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -229,11 +238,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-demo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-demo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -256,11 +268,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-demo-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-demo-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -283,11 +298,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-demo-fastdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-demo-fastdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -310,11 +328,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-demo-fastdebug-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-demo-fastdebug-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -337,11 +358,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-demo-slowdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-demo-slowdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -364,11 +388,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-demo-slowdebug-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-demo-slowdebug-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -391,11 +418,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-devel",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-devel",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -418,11 +448,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-devel-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-devel-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -445,11 +478,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-devel-fastdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-devel-fastdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -472,11 +508,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-devel-fastdebug-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-devel-fastdebug-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -499,11 +538,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-devel-slowdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-devel-slowdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -526,11 +568,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-devel-slowdebug-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-devel-slowdebug-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -553,11 +598,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-fastdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-fastdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -580,11 +628,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-fastdebug-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-fastdebug-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -607,11 +658,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-headless",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-headless",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -634,11 +688,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-headless-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-headless-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -661,11 +718,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-headless-fastdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-headless-fastdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -688,11 +748,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-headless-fastdebug-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-headless-fastdebug-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -715,11 +778,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-headless-slowdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-headless-slowdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -742,11 +808,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-headless-slowdebug-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-headless-slowdebug-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -769,10 +838,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-javadoc",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-javadoc",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -795,10 +867,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-javadoc-zip",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-javadoc-zip",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -821,11 +896,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-slowdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-slowdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -848,11 +926,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-slowdebug-debuginfo",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-slowdebug-debuginfo",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -875,11 +956,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-src",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-src",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -902,11 +986,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-src-fastdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-src-fastdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -929,11 +1016,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-1.8.0-openjdk-src-slowdebug",
-										"architectures": [
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-1.8.0-openjdk-src-slowdebug",
+											"architectures": [
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

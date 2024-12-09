@@ -242,11 +242,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "spice-vdagent",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "spice-vdagent",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -269,11 +272,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "spice-vdagent-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "spice-vdagent-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -296,11 +302,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "spice-vdagent-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "spice-vdagent-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

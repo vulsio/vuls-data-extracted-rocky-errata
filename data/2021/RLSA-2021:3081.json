@@ -93,10 +93,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cloud-init",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cloud-init",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

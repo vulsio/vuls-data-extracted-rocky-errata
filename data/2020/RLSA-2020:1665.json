@@ -354,12 +354,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-qt5-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python-qt5-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -382,12 +385,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-qt5-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python-qt5-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -410,10 +416,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-qt5-rpm-macros",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python-qt5-rpm-macros",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -436,12 +445,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-qt5",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-qt5",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -464,12 +476,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-qt5-base",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-qt5-base",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -492,12 +507,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-qt5-base-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-qt5-base-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -520,12 +538,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-qt5-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-qt5-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -548,12 +569,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-qt5-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-qt5-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -576,12 +600,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qgnomeplatform",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qgnomeplatform",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -604,12 +631,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qgnomeplatform-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qgnomeplatform-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -632,12 +662,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qgnomeplatform-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qgnomeplatform-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -660,10 +693,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-devel",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-devel",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -686,12 +722,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qt3d",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qt3d",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -714,12 +753,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qt3d-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qt3d-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -742,12 +784,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qt3d-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qt3d-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -770,12 +815,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qt3d-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qt3d-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -798,12 +846,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qt3d-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qt3d-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -826,11 +877,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qt3d-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qt3d-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -853,11 +907,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qt3d-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qt3d-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -880,12 +937,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtcanvas3d",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtcanvas3d",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -908,12 +968,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtcanvas3d-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtcanvas3d-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -936,12 +999,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtcanvas3d-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtcanvas3d-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -964,11 +1030,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtcanvas3d-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtcanvas3d-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -991,11 +1060,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtcanvas3d-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtcanvas3d-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1018,12 +1090,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtconnectivity",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtconnectivity",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1046,12 +1121,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtconnectivity-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtconnectivity-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1074,12 +1152,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtconnectivity-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtconnectivity-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1102,12 +1183,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtconnectivity-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtconnectivity-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1130,11 +1214,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtconnectivity-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtconnectivity-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1157,11 +1244,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtconnectivity-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtconnectivity-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1184,12 +1274,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdeclarative",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdeclarative",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1212,12 +1305,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdeclarative-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdeclarative-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1240,12 +1336,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdeclarative-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdeclarative-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1268,12 +1367,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdeclarative-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdeclarative-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1296,12 +1398,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdeclarative-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdeclarative-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1324,11 +1429,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdeclarative-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdeclarative-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1351,11 +1459,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdeclarative-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdeclarative-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1378,12 +1489,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdeclarative-static",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdeclarative-static",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1406,10 +1520,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtdoc",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtdoc",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1432,12 +1549,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtgraphicaleffects",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtgraphicaleffects",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1460,12 +1580,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtgraphicaleffects-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtgraphicaleffects-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1488,12 +1611,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtgraphicaleffects-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtgraphicaleffects-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1516,12 +1642,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtimageformats",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtimageformats",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1544,12 +1673,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtimageformats-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtimageformats-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1572,12 +1704,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtimageformats-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtimageformats-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1600,12 +1735,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtlocation",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtlocation",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1628,12 +1766,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtlocation-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtlocation-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1656,12 +1797,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtlocation-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtlocation-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1684,12 +1828,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtlocation-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtlocation-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1712,11 +1859,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtlocation-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtlocation-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1739,11 +1889,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtlocation-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtlocation-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1766,12 +1919,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtmultimedia",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtmultimedia",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1794,12 +1950,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtmultimedia-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtmultimedia-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1822,12 +1981,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtmultimedia-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtmultimedia-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1850,12 +2012,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtmultimedia-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtmultimedia-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1878,11 +2043,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtmultimedia-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtmultimedia-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1905,11 +2073,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtmultimedia-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtmultimedia-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1932,12 +2103,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1960,12 +2134,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1988,12 +2165,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2016,11 +2196,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2043,11 +2226,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2070,12 +2256,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols2",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols2",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2098,12 +2287,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols2-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols2-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2126,12 +2318,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols2-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols2-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2154,12 +2349,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols2-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols2-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2182,11 +2380,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols2-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols2-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2209,11 +2410,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtquickcontrols2-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtquickcontrols2-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2236,12 +2440,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtscript",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtscript",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2264,12 +2471,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtscript-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtscript-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2292,12 +2502,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtscript-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtscript-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2320,12 +2533,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtscript-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtscript-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2348,11 +2564,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtscript-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtscript-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2375,11 +2594,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtscript-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtscript-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2402,12 +2624,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsensors",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsensors",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2430,12 +2655,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsensors-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsensors-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2458,12 +2686,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsensors-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsensors-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2486,12 +2717,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsensors-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsensors-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2514,11 +2748,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsensors-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsensors-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2541,11 +2778,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsensors-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsensors-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2568,12 +2808,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialbus",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialbus",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2596,12 +2839,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialbus-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialbus-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2624,12 +2870,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialbus-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialbus-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2652,11 +2901,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialbus-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialbus-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2679,11 +2931,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialbus-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialbus-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2706,12 +2961,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialport",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialport",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2734,12 +2992,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialport-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialport-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2762,12 +3023,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialport-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialport-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2790,12 +3054,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialport-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialport-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2818,11 +3085,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialport-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialport-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2845,11 +3115,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtserialport-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtserialport-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2872,12 +3145,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsvg",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsvg",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2900,12 +3176,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsvg-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsvg-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2928,12 +3207,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsvg-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsvg-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2956,12 +3238,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsvg-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsvg-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2984,11 +3269,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsvg-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsvg-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3011,11 +3299,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtsvg-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtsvg-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3038,10 +3329,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qttranslations",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qttranslations",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3064,12 +3358,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwayland",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwayland",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3092,12 +3389,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwayland-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwayland-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3120,12 +3420,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwayland-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwayland-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3148,12 +3451,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwayland-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwayland-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3176,12 +3482,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwayland-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwayland-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3204,11 +3513,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwayland-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwayland-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3231,11 +3543,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwayland-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwayland-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3258,12 +3573,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebchannel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebchannel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3286,12 +3604,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebchannel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebchannel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3314,12 +3635,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebchannel-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebchannel-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3342,12 +3666,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebchannel-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebchannel-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3370,11 +3697,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebchannel-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebchannel-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3397,11 +3727,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtwebchannel-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtwebchannel-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3424,12 +3757,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtx11extras",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtx11extras",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3452,12 +3788,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtx11extras-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtx11extras-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3480,12 +3819,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtx11extras-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtx11extras-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3508,12 +3850,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtx11extras-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtx11extras-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3536,12 +3881,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtxmlpatterns",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtxmlpatterns",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3564,12 +3912,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtxmlpatterns-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtxmlpatterns-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3592,12 +3943,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtxmlpatterns-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtxmlpatterns-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3620,12 +3974,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtxmlpatterns-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtxmlpatterns-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3648,12 +4005,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtxmlpatterns-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtxmlpatterns-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3676,11 +4036,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtxmlpatterns-examples",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtxmlpatterns-examples",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3703,11 +4066,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-qtxmlpatterns-examples-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-qtxmlpatterns-examples-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3730,10 +4096,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-rpm-macros",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-rpm-macros",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3756,10 +4125,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-srpm-macros",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "qt5-srpm-macros",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

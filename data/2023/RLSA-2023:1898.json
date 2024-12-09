@@ -226,11 +226,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -253,11 +256,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -280,11 +286,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -307,11 +316,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-demo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-demo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -334,11 +346,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-demo-fastdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-demo-fastdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -361,11 +376,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-demo-slowdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-demo-slowdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -388,11 +406,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-devel",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-devel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -415,11 +436,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -442,11 +466,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-devel-fastdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-devel-fastdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -469,11 +496,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-devel-fastdebug-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-devel-fastdebug-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -496,11 +526,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-devel-slowdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-devel-slowdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -523,11 +556,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-devel-slowdebug-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-devel-slowdebug-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -550,11 +586,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-fastdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-fastdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -577,11 +616,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-fastdebug-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-fastdebug-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -604,11 +646,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-headless",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-headless",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -631,11 +676,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-headless-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-headless-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -658,11 +706,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-headless-fastdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-headless-fastdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -685,11 +736,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-headless-fastdebug-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-headless-fastdebug-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -712,11 +766,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-headless-slowdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-headless-slowdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -739,11 +796,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-headless-slowdebug-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-headless-slowdebug-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -766,11 +826,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-javadoc",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-javadoc",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -793,11 +856,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-javadoc-zip",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-javadoc-zip",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -820,11 +886,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-jmods",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-jmods",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -847,11 +916,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-jmods-fastdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-jmods-fastdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -874,11 +946,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-jmods-slowdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-jmods-slowdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -901,11 +976,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-slowdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-slowdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -928,11 +1006,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-slowdebug-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-slowdebug-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -955,11 +1036,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-src",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-src",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -982,11 +1066,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-src-fastdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-src-fastdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1009,11 +1096,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-src-slowdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-src-slowdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1036,11 +1126,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-static-libs",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-static-libs",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1063,11 +1156,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-static-libs-fastdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-static-libs-fastdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1090,11 +1186,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-17-openjdk-static-libs-slowdebug",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "java-17-openjdk-static-libs-slowdebug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

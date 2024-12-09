@@ -70,13 +70,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -99,10 +102,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -125,12 +131,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -153,10 +162,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp-debuginfo",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp-debuginfo",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -179,12 +191,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp-debugsource",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp-debugsource",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -207,10 +222,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp-debugsource",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp-debugsource",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -233,13 +251,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -262,10 +283,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp-devel",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp-devel",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -288,12 +312,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwebp-tools-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwebp-tools-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

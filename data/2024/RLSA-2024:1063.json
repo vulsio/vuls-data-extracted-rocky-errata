@@ -94,10 +94,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "edk2-aarch64",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "edk2-aarch64",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -120,10 +123,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "edk2-ovmf",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "edk2-ovmf",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

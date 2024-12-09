@@ -200,11 +200,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "resource-agents",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "resource-agents",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -227,10 +230,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "resource-agents-aliyun",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "resource-agents-aliyun",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -253,10 +259,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "resource-agents-aliyun-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "resource-agents-aliyun-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -279,11 +288,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "resource-agents-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "resource-agents-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -306,11 +318,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "resource-agents-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "resource-agents-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -333,10 +348,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "resource-agents-gcp",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "resource-agents-gcp",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -359,11 +377,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "resource-agents-paf",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "resource-agents-paf",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
