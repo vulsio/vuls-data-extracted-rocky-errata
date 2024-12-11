@@ -93,11 +93,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cryptsetup",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -120,12 +123,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cryptsetup-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -148,12 +154,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cryptsetup-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -176,12 +185,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cryptsetup-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -204,12 +216,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cryptsetup-libs",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup-libs",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -232,12 +247,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cryptsetup-libs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup-libs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -260,11 +278,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cryptsetup-reencrypt",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup-reencrypt",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -287,11 +308,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cryptsetup-reencrypt-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup-reencrypt-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -314,11 +338,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "integritysetup",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "integritysetup",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -341,11 +368,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "integritysetup-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "integritysetup-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -368,11 +398,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "veritysetup",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "veritysetup",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -395,11 +428,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "veritysetup-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "veritysetup-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

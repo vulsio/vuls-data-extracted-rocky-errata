@@ -70,10 +70,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-unversioned-command",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python-unversioned-command",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -96,14 +99,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -126,14 +132,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-debug",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-debug",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -156,14 +165,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -186,14 +198,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-idle",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-idle",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -216,14 +231,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-libs",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-libs",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -246,14 +264,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-test",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-test",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -276,14 +297,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-tkinter",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-tkinter",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

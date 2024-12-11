@@ -524,10 +524,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-nodemon",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-nodemon",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

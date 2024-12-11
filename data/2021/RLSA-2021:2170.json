@@ -97,12 +97,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -125,12 +128,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -153,12 +159,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -181,12 +190,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -209,12 +221,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -237,10 +252,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-doc",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-doc",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -263,11 +281,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-fam",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-fam",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -290,11 +311,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-fam-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-fam-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -317,12 +341,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-static",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-static",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -345,11 +372,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-tests",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-tests",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -372,11 +402,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2-tests-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "glib2-tests-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

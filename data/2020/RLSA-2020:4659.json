@@ -187,12 +187,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gd",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gd",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -215,12 +218,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gd-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gd-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -243,12 +249,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gd-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gd-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -271,12 +280,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gd-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gd-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

@@ -1237,11 +1237,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vinagre",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "vinagre",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1264,11 +1267,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vinagre-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "vinagre-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1291,11 +1297,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vinagre-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "vinagre-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

@@ -70,11 +70,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dnf-plugin-subscription-manager",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dnf-plugin-subscription-manager",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -97,11 +100,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dnf-plugin-subscription-manager-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dnf-plugin-subscription-manager-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -124,11 +130,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-cloud-what",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-cloud-what",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -151,11 +160,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-subscription-manager-rhsm",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-subscription-manager-rhsm",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -178,11 +190,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-subscription-manager-rhsm-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-subscription-manager-rhsm-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -205,11 +220,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-syspurpose",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-syspurpose",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -232,10 +250,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rhsm-icons",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rhsm-icons",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -258,11 +279,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -285,10 +309,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-cockpit",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-cockpit",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -311,11 +338,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -338,11 +368,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -365,11 +398,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-migration",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-migration",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -392,11 +428,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-plugin-ostree",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-plugin-ostree",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -419,11 +458,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-rhsm-certificates",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-rhsm-certificates",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

@@ -281,12 +281,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libvncserver",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libvncserver",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -309,12 +312,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libvncserver-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libvncserver-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -337,12 +343,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libvncserver-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libvncserver-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -365,12 +374,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libvncserver-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libvncserver-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

@@ -94,11 +94,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "squashfs-tools",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "squashfs-tools",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -121,11 +124,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "squashfs-tools-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "squashfs-tools-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -148,11 +154,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "squashfs-tools-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "squashfs-tools-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

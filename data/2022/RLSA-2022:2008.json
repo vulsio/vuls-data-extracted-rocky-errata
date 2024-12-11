@@ -176,11 +176,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cockpit",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -203,11 +206,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit-bridge",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cockpit-bridge",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -230,11 +236,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cockpit-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -257,11 +266,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cockpit-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -284,10 +296,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit-doc",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cockpit-doc",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -310,10 +325,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit-system",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cockpit-system",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -336,11 +354,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit-ws",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "cockpit-ws",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

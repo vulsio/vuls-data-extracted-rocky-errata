@@ -93,11 +93,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-11-annobin-annocheck",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-11-annobin-annocheck",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -120,11 +123,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-11-annobin-annocheck-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-11-annobin-annocheck-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -147,11 +153,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-11-annobin-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-11-annobin-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -174,10 +183,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-11-annobin-docs",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-11-annobin-docs",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -200,11 +212,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-11-annobin-plugin-gcc",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-11-annobin-plugin-gcc",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -227,11 +242,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-11-annobin-plugin-gcc-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-11-annobin-plugin-gcc-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

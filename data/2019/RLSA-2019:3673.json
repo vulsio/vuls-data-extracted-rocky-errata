@@ -97,12 +97,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lldpad",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "lldpad",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -125,12 +128,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lldpad-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "lldpad-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -153,12 +159,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lldpad-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "lldpad-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

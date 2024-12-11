@@ -70,13 +70,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "varnish",
-										"architectures": [
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "varnish",
+											"architectures": [
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -99,13 +102,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "varnish-devel",
-										"architectures": [
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "varnish-devel",
+											"architectures": [
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -128,12 +134,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "varnish-docs",
-										"architectures": [
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "varnish-docs",
+											"architectures": [
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

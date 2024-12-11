@@ -97,11 +97,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flatpak-builder",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flatpak-builder",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -124,11 +127,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flatpak-builder-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flatpak-builder-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -151,11 +157,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flatpak-builder-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flatpak-builder-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

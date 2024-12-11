@@ -140,14 +140,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -170,13 +173,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -199,13 +205,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2-debugsource",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2-debugsource",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -228,14 +237,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -258,10 +270,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2-syntax",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2-syntax",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -284,14 +299,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2-utf16",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2-utf16",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -314,13 +332,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2-utf16-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2-utf16-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -343,14 +364,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2-utf32",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2-utf32",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -373,13 +397,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2-utf32-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pcre2-utf32-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

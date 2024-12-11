@@ -521,12 +521,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "egl-wayland",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "egl-wayland",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -549,12 +552,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "egl-wayland-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "egl-wayland-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -577,12 +583,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "egl-wayland-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "egl-wayland-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -605,12 +614,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libX11",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libX11",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -633,10 +645,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libX11-common",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libX11-common",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -659,12 +674,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libX11-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libX11-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -687,12 +705,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libX11-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libX11-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -715,12 +736,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libX11-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libX11-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -743,12 +767,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libX11-xcb",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libX11-xcb",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -771,12 +798,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libX11-xcb-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libX11-xcb-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -799,12 +829,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdrm",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdrm",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -827,12 +860,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdrm-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdrm-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -855,12 +891,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdrm-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdrm-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -883,12 +922,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdrm-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdrm-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -911,12 +953,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -939,12 +984,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-core-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-core-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -967,12 +1015,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -995,12 +1046,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1023,12 +1077,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1051,12 +1108,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-egl",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-egl",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1079,12 +1139,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-egl-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-egl-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1107,12 +1170,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-gles",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-gles",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1135,12 +1201,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-gles-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-gles-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1163,12 +1232,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-glx",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-glx",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1191,12 +1263,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-glx-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-glx-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1219,12 +1294,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-opengl",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-opengl",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1247,12 +1325,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libglvnd-opengl-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libglvnd-opengl-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1275,12 +1356,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libinput",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libinput",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1303,12 +1387,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libinput-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libinput-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1331,12 +1418,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libinput-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libinput-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1359,12 +1449,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libinput-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libinput-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1387,11 +1480,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libinput-utils",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libinput-utils",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1414,11 +1510,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libinput-utils-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libinput-utils-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1441,12 +1540,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwacom",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwacom",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1469,10 +1571,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwacom-data",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwacom-data",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1495,12 +1600,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwacom-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwacom-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1523,12 +1631,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwacom-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwacom-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1551,12 +1662,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwacom-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libwacom-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1579,12 +1693,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1607,12 +1724,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1635,12 +1755,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-dri-drivers",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-dri-drivers",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1663,12 +1786,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-dri-drivers-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-dri-drivers-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1691,12 +1817,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-filesystem",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-filesystem",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1719,12 +1848,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libEGL",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libEGL",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1747,12 +1879,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libEGL-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libEGL-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1775,12 +1910,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libEGL-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libEGL-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1803,12 +1941,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libGL",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libGL",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1831,12 +1972,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libGL-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libGL-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1859,12 +2003,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libGL-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libGL-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1887,12 +2034,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libOSMesa",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libOSMesa",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1915,12 +2065,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libOSMesa-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libOSMesa-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1943,12 +2096,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libOSMesa-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libOSMesa-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1971,12 +2127,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libgbm",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libgbm",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1999,12 +2158,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libgbm-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libgbm-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2027,12 +2189,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libgbm-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libgbm-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2055,12 +2220,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libglapi",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libglapi",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2083,12 +2251,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libglapi-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libglapi-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2111,12 +2282,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libxatracker",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libxatracker",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2139,12 +2313,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-libxatracker-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-libxatracker-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2167,12 +2344,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-vdpau-drivers",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-vdpau-drivers",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2195,12 +2375,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-vdpau-drivers-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-vdpau-drivers-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2223,11 +2406,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-vulkan-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-vulkan-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2250,11 +2436,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-vulkan-drivers",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-vulkan-drivers",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2277,11 +2466,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mesa-vulkan-drivers-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mesa-vulkan-drivers-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2304,11 +2496,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-drivers",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-drivers",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2331,11 +2526,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xdmx",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xdmx",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2358,11 +2556,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xdmx-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xdmx-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2385,11 +2586,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xephyr",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xephyr",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2412,11 +2616,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xephyr-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xephyr-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2439,11 +2646,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xnest",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xnest",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2466,11 +2676,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xnest-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xnest-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2493,11 +2706,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xorg",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xorg",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2520,11 +2736,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xorg-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xorg-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2547,11 +2766,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xvfb",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xvfb",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2574,11 +2796,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xvfb-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xvfb-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2601,11 +2826,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xwayland",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xwayland",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2628,11 +2856,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-Xwayland-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-Xwayland-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2655,11 +2886,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-common",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-common",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2682,11 +2916,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2709,11 +2946,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2736,12 +2976,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2764,10 +3007,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-x11-server-source",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "xorg-x11-server-source",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

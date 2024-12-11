@@ -2195,12 +2195,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2223,12 +2226,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2251,12 +2257,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2279,12 +2288,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2307,12 +2319,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2335,12 +2350,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-modules",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-modules",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2363,12 +2381,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-modules-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-modules-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2391,12 +2412,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-xlib",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-xlib",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2419,12 +2443,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-xlib-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-xlib-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2447,12 +2474,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdk-pixbuf2-xlib-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdk-pixbuf2-xlib-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2475,11 +2505,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-desktop3",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-desktop3",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2502,11 +2535,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-desktop3-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-desktop3-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2529,11 +2565,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-desktop3-debugsource",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-desktop3-debugsource",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2556,11 +2595,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-desktop3-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-desktop3-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2583,12 +2625,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libpurple",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libpurple",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2611,12 +2656,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libpurple-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libpurple-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2639,12 +2687,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libpurple-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libpurple-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2667,12 +2718,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pango",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pango",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2695,12 +2749,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pango-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pango-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2723,12 +2780,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pango-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pango-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2751,12 +2811,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pango-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pango-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2779,10 +2842,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pidgin",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pidgin",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2805,12 +2871,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pidgin-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pidgin-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2833,12 +2902,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pidgin-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pidgin-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2861,11 +2933,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pidgin-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "pidgin-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

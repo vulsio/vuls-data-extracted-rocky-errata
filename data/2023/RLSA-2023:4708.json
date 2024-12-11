@@ -70,13 +70,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdnf-plugin-subscription-manager",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdnf-plugin-subscription-manager",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -99,13 +102,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdnf-plugin-subscription-manager-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdnf-plugin-subscription-manager-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -128,13 +134,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-cloud-what",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-cloud-what",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -157,13 +166,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-subscription-manager-rhsm",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-subscription-manager-rhsm",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -186,13 +198,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-subscription-manager-rhsm-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-subscription-manager-rhsm-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -215,13 +230,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -244,13 +262,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -273,13 +294,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-debugsource",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-debugsource",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -302,13 +326,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subscription-manager-plugin-ostree",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "subscription-manager-plugin-ostree",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

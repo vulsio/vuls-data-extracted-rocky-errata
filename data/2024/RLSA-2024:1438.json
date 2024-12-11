@@ -70,10 +70,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs",
-										"architectures": [
-											"ppc64le"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nodejs",
+											"architectures": [
+												"ppc64le"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -96,10 +99,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-debuginfo",
-										"architectures": [
-											"ppc64le"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-debuginfo",
+											"architectures": [
+												"ppc64le"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -122,10 +128,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-debugsource",
-										"architectures": [
-											"ppc64le"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-debugsource",
+											"architectures": [
+												"ppc64le"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -148,10 +157,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-docs",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-docs",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -174,10 +186,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-full-i18n",
-										"architectures": [
-											"ppc64le"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-full-i18n",
+											"architectures": [
+												"ppc64le"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -200,10 +215,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-libs",
-										"architectures": [
-											"ppc64le"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-libs",
+											"architectures": [
+												"ppc64le"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -226,10 +244,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-libs-debuginfo",
-										"architectures": [
-											"ppc64le"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-libs-debuginfo",
+											"architectures": [
+												"ppc64le"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -252,10 +273,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "npm",
-										"architectures": [
-											"ppc64le"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "npm",
+											"architectures": [
+												"ppc64le"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

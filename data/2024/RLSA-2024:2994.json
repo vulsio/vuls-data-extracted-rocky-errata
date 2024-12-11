@@ -70,11 +70,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "LibRaw",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "LibRaw",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -97,11 +100,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "LibRaw-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "LibRaw-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -124,11 +130,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "LibRaw-debugsource",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "LibRaw-debugsource",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -151,11 +160,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "LibRaw-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "LibRaw-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

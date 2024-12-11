@@ -93,13 +93,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flac",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flac",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -122,13 +125,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flac-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flac-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -151,13 +157,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flac-debugsource",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flac-debugsource",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -180,14 +189,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flac-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flac-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -210,14 +222,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flac-libs",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flac-libs",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -240,13 +255,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flac-libs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "flac-libs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

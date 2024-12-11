@@ -140,10 +140,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-common",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-common",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -166,11 +169,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -193,11 +199,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -220,10 +229,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-aa64",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-aa64",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -246,10 +258,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-aa64-cdboot",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-aa64-cdboot",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -272,10 +287,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-aa64-modules",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-aa64-modules",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -298,10 +316,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-ia32",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-ia32",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -324,10 +345,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-ia32-cdboot",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-ia32-cdboot",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -350,10 +374,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-ia32-modules",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-ia32-modules",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -376,10 +403,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-x64",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-x64",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -402,10 +432,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-x64-cdboot",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-x64-cdboot",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -428,10 +461,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-efi-x64-modules",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-efi-x64-modules",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -454,10 +490,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-pc",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-pc",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -480,10 +519,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-pc-modules",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-pc-modules",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -506,11 +548,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-tools",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-tools",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -533,11 +578,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-tools-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-tools-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -560,10 +608,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-tools-efi",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-tools-efi",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -586,10 +637,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-tools-efi-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-tools-efi-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -612,11 +666,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-tools-extra",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-tools-extra",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -639,11 +696,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-tools-extra-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-tools-extra-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -666,11 +726,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-tools-minimal",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-tools-minimal",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -693,11 +756,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grub2-tools-minimal-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "grub2-tools-minimal-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

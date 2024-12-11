@@ -93,11 +93,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-annobin",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-annobin",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -120,11 +123,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gcc-toolset-10-annobin-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-10-annobin-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

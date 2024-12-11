@@ -2502,10 +2502,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdb-cxx",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdb-cxx",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2528,10 +2531,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdb-cxx-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdb-cxx-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2554,10 +2560,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdb-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdb-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2580,10 +2589,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdb-debugsource",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdb-debugsource",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2606,10 +2618,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdb-sql-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdb-sql-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2632,10 +2647,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdb-sql-devel-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdb-sql-devel-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2658,10 +2676,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libdb-utils-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libdb-utils-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

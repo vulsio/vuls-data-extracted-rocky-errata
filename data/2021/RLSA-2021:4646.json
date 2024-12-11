@@ -140,10 +140,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -166,10 +169,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-core",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-core",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -192,10 +198,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-debug",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-debug",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -218,10 +227,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-debug-core",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-debug-core",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -244,10 +256,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-debug-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-debug-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -270,10 +285,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-debug-devel",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-debug-devel",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -296,10 +314,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-debug-modules",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-debug-modules",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -322,10 +343,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-debug-modules-extra",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-debug-modules-extra",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -348,10 +372,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -374,10 +401,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-debuginfo-common-x86_64",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-debuginfo-common-x86_64",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -400,10 +430,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-devel",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-devel",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -426,10 +459,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-kvm",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-kvm",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -452,10 +488,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-modules",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-modules",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -478,10 +517,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kernel-rt-modules-extra",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "kernel-rt-modules-extra",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

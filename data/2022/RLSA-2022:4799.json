@@ -93,11 +93,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -120,11 +123,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-crypto",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-crypto",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -147,11 +153,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-crypto-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-crypto-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -174,11 +183,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -201,11 +213,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -228,10 +243,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-doc",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-doc",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -254,11 +272,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-elasticsearch",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-elasticsearch",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -281,11 +302,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-elasticsearch-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-elasticsearch-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -308,11 +332,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-gnutls",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-gnutls",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -335,11 +362,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-gnutls-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-gnutls-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -362,11 +392,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-gssapi",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-gssapi",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -389,11 +422,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-gssapi-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-gssapi-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -416,11 +452,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-kafka",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-kafka",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -443,11 +482,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-kafka-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-kafka-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -470,11 +512,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmaudit",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmaudit",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -497,11 +542,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmaudit-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmaudit-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -524,11 +572,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmfields",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmfields",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -551,11 +602,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmfields-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmfields-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -578,11 +632,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmjsonparse",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmjsonparse",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -605,11 +662,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmjsonparse-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmjsonparse-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -632,11 +692,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmkubernetes",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmkubernetes",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -659,11 +722,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmkubernetes-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmkubernetes-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -686,11 +752,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmnormalize",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmnormalize",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -713,11 +782,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmnormalize-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmnormalize-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -740,11 +812,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmsnmptrapd",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmsnmptrapd",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -767,11 +842,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mmsnmptrapd-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mmsnmptrapd-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -794,11 +872,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mysql",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mysql",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -821,11 +902,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-mysql-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-mysql-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -848,11 +932,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-omamqp1",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-omamqp1",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -875,11 +962,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-omamqp1-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-omamqp1-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -902,11 +992,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-openssl",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-openssl",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -929,11 +1022,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-openssl-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-openssl-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -956,11 +1052,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-pgsql",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-pgsql",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -983,11 +1082,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-pgsql-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-pgsql-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1010,11 +1112,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-relp",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-relp",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1037,11 +1142,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-relp-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-relp-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1064,11 +1172,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-snmp",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-snmp",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1091,11 +1202,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-snmp-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-snmp-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1118,11 +1232,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-udpspoof",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-udpspoof",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1145,11 +1262,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsyslog-udpspoof-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "rsyslog-udpspoof-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

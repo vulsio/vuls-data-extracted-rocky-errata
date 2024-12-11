@@ -714,10 +714,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "smartmontools",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "smartmontools",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -740,10 +743,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "smartmontools-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "smartmontools-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -766,10 +772,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "smartmontools-debugsource",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "smartmontools-debugsource",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

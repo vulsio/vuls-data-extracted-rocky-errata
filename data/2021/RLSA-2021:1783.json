@@ -117,11 +117,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -144,11 +147,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -171,11 +177,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -198,10 +207,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-icons",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-icons",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -224,10 +236,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-license",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-license",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -250,10 +265,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-selinux",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-selinux",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -276,11 +294,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-server",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-server",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -303,11 +324,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-server-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-server-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -330,11 +354,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-server-minimal",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-server-minimal",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -357,11 +384,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-server-minimal-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-server-minimal-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -384,11 +414,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-server-module",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-server-module",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -411,11 +444,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tigervnc-server-module-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "tigervnc-server-module-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

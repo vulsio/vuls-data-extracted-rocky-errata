@@ -70,13 +70,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -99,10 +102,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-common",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-common",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -125,13 +131,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-daemon",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-daemon",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -154,13 +163,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-daemon-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-daemon-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -183,13 +195,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -212,13 +227,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-debugsource",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-debugsource",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -241,14 +259,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -271,14 +292,17 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-libs",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-libs",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -301,13 +325,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-libs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-libs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -330,13 +357,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-tools",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-tools",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -359,13 +389,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-tools-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-tools-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -388,13 +421,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-x11",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-x11",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -417,13 +453,16 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dbus-x11-debuginfo",
-										"architectures": [
-											"aarch64",
-											"ppc64le",
-											"s390x",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dbus-x11-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

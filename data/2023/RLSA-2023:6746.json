@@ -70,10 +70,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnghttp2",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libnghttp2",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -96,10 +99,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnghttp2-debuginfo",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libnghttp2-debuginfo",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -122,10 +128,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnghttp2-devel",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libnghttp2-devel",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -148,10 +157,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nghttp2",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nghttp2",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -174,10 +186,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nghttp2-debuginfo",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nghttp2-debuginfo",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -200,10 +215,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nghttp2-debugsource",
-										"architectures": [
-											"s390x"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nghttp2-debugsource",
+											"architectures": [
+												"s390x"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

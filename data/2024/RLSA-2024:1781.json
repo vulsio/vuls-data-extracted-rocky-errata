@@ -190,11 +190,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -217,11 +220,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-chroot",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-chroot",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -244,12 +250,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -272,12 +281,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -300,12 +312,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -328,11 +343,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-dnssec-utils",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-dnssec-utils",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -355,11 +373,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-dnssec-utils-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-dnssec-utils-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -382,10 +403,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-doc",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-doc",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -408,12 +432,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-libs",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-libs",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -436,12 +463,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-libs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-libs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -464,10 +494,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-license",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-license",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -490,11 +523,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-utils",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-utils",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -517,11 +553,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bind9.16-utils-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bind9.16-utils-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -544,10 +583,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python3-bind9.16",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "python3-bind9.16",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

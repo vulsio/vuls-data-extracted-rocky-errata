@@ -136,10 +136,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "aspnetcore-runtime-3.1",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "aspnetcore-runtime-3.1",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -162,10 +165,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "aspnetcore-targeting-pack-3.1",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "aspnetcore-targeting-pack-3.1",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -188,10 +194,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-apphost-pack-3.1",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-apphost-pack-3.1",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -214,10 +223,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-apphost-pack-3.1-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-apphost-pack-3.1-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -240,10 +252,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-hostfxr-3.1",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-hostfxr-3.1",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -266,10 +281,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-hostfxr-3.1-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-hostfxr-3.1-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -292,10 +310,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-runtime-3.1",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-runtime-3.1",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -318,10 +339,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-runtime-3.1-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-runtime-3.1-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -344,10 +368,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-sdk-3.1",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-sdk-3.1",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -370,10 +397,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-sdk-3.1-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-sdk-3.1-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -396,10 +426,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-sdk-3.1-source-built-artifacts",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-sdk-3.1-source-built-artifacts",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -422,10 +455,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-targeting-pack-3.1",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-targeting-pack-3.1",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -448,10 +484,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-templates-3.1",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-templates-3.1",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -474,10 +513,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet3.1-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "dotnet3.1-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

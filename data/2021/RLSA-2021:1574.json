@@ -233,11 +233,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -260,11 +263,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-adsl",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-adsl",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -287,11 +293,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-adsl-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-adsl-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -314,11 +323,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-bluetooth",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-bluetooth",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -341,11 +353,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-bluetooth-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-bluetooth-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -368,11 +383,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-cloud-setup",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-cloud-setup",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -395,11 +413,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-cloud-setup-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-cloud-setup-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -422,10 +443,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-config-connectivity-redhat",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-config-connectivity-redhat",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -448,10 +472,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-config-server",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-config-server",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -474,12 +501,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -502,12 +532,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -530,10 +563,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-dispatcher-routing-rules",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-dispatcher-routing-rules",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -556,12 +592,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-libnm",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-libnm",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -584,12 +623,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-libnm-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-libnm-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -612,12 +654,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-libnm-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-libnm-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -640,11 +685,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-ovs",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-ovs",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -667,11 +715,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-ovs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-ovs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -694,11 +745,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-ppp",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-ppp",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -721,11 +775,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-ppp-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-ppp-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -748,11 +805,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-team",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-team",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -775,11 +835,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-team-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-team-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -802,11 +865,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-tui",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-tui",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -829,11 +895,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-tui-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-tui-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -856,11 +925,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-wifi",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-wifi",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -883,11 +955,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-wifi-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-wifi-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -910,11 +985,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-wwan",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-wwan",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -937,11 +1015,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "NetworkManager-wwan-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "NetworkManager-wwan-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -964,12 +1045,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnma",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libnma",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -992,12 +1076,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnma-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libnma-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1020,12 +1107,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnma-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libnma-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1048,12 +1138,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnma-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "libnma-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

@@ -70,11 +70,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -97,11 +100,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -124,11 +130,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-debugsource",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-debugsource",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -151,11 +160,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -178,11 +190,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-softokn",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-softokn",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -205,11 +220,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-softokn-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-softokn-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -232,11 +250,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-softokn-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-softokn-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -259,11 +280,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-softokn-freebl",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-softokn-freebl",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -286,11 +310,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-softokn-freebl-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-softokn-freebl-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -313,11 +340,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-softokn-freebl-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-softokn-freebl-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -340,10 +370,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-sysinit",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-sysinit",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -366,10 +399,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-sysinit-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-sysinit-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -392,10 +428,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-tools",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-tools",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -418,10 +457,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-tools-debuginfo",
-										"architectures": [
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-tools-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -444,11 +486,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-util",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-util",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -471,11 +516,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-util-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-util-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -498,11 +546,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nss-util-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "nss-util-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

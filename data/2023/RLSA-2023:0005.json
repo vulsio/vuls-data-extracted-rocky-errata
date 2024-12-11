@@ -93,10 +93,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bcel",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "bcel",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

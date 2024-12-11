@@ -1565,11 +1565,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "LibRaw",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "LibRaw",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1592,11 +1595,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "LibRaw-debuginfo",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "LibRaw-debuginfo",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1619,11 +1625,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "LibRaw-debugsource",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "LibRaw-debugsource",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1646,11 +1655,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "LibRaw-devel",
-										"architectures": [
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "LibRaw-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1673,11 +1685,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "accountsservice",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "accountsservice",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1700,12 +1715,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "accountsservice-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "accountsservice-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1728,11 +1746,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "accountsservice-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "accountsservice-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1755,12 +1776,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "accountsservice-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "accountsservice-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1783,12 +1807,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "accountsservice-libs",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "accountsservice-libs",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1811,12 +1838,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "accountsservice-libs-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "accountsservice-libs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1839,12 +1869,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdm",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdm",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1867,12 +1900,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdm-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdm-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1895,12 +1931,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gdm-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gdm-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1923,12 +1962,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-autoar",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-autoar",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1951,12 +1993,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-autoar-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-autoar-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -1979,12 +2024,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-autoar-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-autoar-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2007,11 +2055,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-calculator",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-calculator",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2034,11 +2085,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-calculator-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-calculator-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2061,11 +2115,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-calculator-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-calculator-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2088,10 +2145,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-classic-session",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-classic-session",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2114,11 +2174,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-control-center",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-control-center",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2141,11 +2204,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-control-center-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-control-center-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2168,11 +2234,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-control-center-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-control-center-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2195,10 +2264,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-control-center-filesystem",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-control-center-filesystem",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2221,12 +2293,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-online-accounts",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-online-accounts",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2249,12 +2324,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-online-accounts-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-online-accounts-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2277,12 +2355,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-online-accounts-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-online-accounts-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2305,12 +2386,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-online-accounts-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-online-accounts-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2333,11 +2417,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-session",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-session",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2360,11 +2447,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-session-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-session-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2387,11 +2477,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-session-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-session-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2414,11 +2507,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-session-kiosk-session",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-session-kiosk-session",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2441,11 +2537,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-session-wayland-session",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-session-wayland-session",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2468,11 +2567,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-session-xsession",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-session-xsession",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2495,11 +2597,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-settings-daemon",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-settings-daemon",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2522,11 +2627,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-settings-daemon",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-settings-daemon",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2549,11 +2657,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-settings-daemon-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-settings-daemon-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2576,11 +2687,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-settings-daemon-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-settings-daemon-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2603,11 +2717,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-settings-daemon-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-settings-daemon-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2630,11 +2747,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-settings-daemon-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-settings-daemon-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2657,11 +2777,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2684,11 +2807,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2711,11 +2837,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2738,10 +2867,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-apps-menu",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-apps-menu",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2764,10 +2896,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-auto-move-windows",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-auto-move-windows",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2790,10 +2925,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-common",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-common",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2816,10 +2954,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-dash-to-dock",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-dash-to-dock",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2842,10 +2983,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-desktop-icons",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-desktop-icons",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2868,10 +3012,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-disable-screenshield",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-disable-screenshield",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2894,10 +3041,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-drive-menu",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-drive-menu",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2920,10 +3070,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-gesture-inhibitor",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-gesture-inhibitor",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2946,10 +3099,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-horizontal-workspaces",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-horizontal-workspaces",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2972,10 +3128,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-launch-new-instance",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-launch-new-instance",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -2998,10 +3157,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-native-window-placement",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-native-window-placement",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3024,10 +3186,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-no-hot-corner",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-no-hot-corner",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3050,10 +3215,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-panel-favorites",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-panel-favorites",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3076,10 +3244,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-places-menu",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-places-menu",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3102,10 +3273,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-screenshot-window-sizer",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-screenshot-window-sizer",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3128,10 +3302,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-systemMonitor",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-systemMonitor",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3154,10 +3331,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-top-icons",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-top-icons",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3180,10 +3360,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-updates-dialog",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-updates-dialog",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3206,10 +3389,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-user-theme",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-user-theme",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3232,10 +3418,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-window-grouper",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-window-grouper",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3258,10 +3447,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-window-list",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-window-list",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3284,10 +3476,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-windowsNavigator",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-windowsNavigator",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3310,10 +3505,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-shell-extension-workspace-indicator",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-shell-extension-workspace-indicator",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3336,12 +3534,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-software",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-software",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3364,12 +3565,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-software-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-software-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3392,12 +3596,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-software-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-software-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3420,12 +3627,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-software-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gnome-software-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3448,12 +3658,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gsettings-desktop-schemas",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gsettings-desktop-schemas",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3476,12 +3689,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gsettings-desktop-schemas-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gsettings-desktop-schemas-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3504,11 +3720,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk-update-icon-cache",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk-update-icon-cache",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3531,11 +3750,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk-update-icon-cache-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk-update-icon-cache-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3558,12 +3780,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk3",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk3",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3586,12 +3811,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk3-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk3-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3614,12 +3842,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk3-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk3-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3642,12 +3873,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk3-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk3-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3670,12 +3904,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk3-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk3-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3698,11 +3935,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk3-immodule-xim",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk3-immodule-xim",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3725,11 +3965,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gtk3-immodule-xim-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "gtk3-immodule-xim-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3752,12 +3995,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mutter",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mutter",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3780,12 +4026,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mutter-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mutter-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3808,12 +4057,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mutter-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mutter-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3836,12 +4088,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mutter-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "mutter-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3864,11 +4119,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vino",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "vino",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3891,11 +4149,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vino-debuginfo",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "vino-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3918,11 +4179,14 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vino-debugsource",
-										"architectures": [
-											"aarch64",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "vino-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3945,12 +4209,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -3973,12 +4240,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -4001,12 +4271,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3-debugsource",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3-debugsource",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -4029,12 +4302,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -4057,12 +4333,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -4085,12 +4364,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3-jsc",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3-jsc",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -4113,12 +4395,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3-jsc-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3-jsc-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -4141,12 +4426,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3-jsc-devel",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3-jsc-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -4169,12 +4457,15 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk3-jsc-devel-debuginfo",
-										"architectures": [
-											"aarch64",
-											"i686",
-											"x86_64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk3-jsc-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

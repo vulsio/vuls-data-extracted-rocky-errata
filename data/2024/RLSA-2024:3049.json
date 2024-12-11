@@ -70,10 +70,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "perl-Convert-ASN1",
-										"architectures": [
-											"noarch"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "perl-Convert-ASN1",
+											"architectures": [
+												"noarch"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",

@@ -214,10 +214,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "thunderbird",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "thunderbird",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -240,10 +243,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "thunderbird-debuginfo",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "thunderbird-debuginfo",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
@@ -266,10 +272,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "thunderbird-debugsource",
-										"architectures": [
-											"aarch64"
-										]
+										"type": "binary",
+										"binary": {
+											"name": "thunderbird-debugsource",
+											"architectures": [
+												"aarch64"
+											]
+										}
 									},
 									"affected": {
 										"type": "rpm",
