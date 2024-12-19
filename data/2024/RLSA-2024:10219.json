@@ -1,0 +1,53 @@
+{
+	"id": "RLSA-2024:10219",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2024:10219",
+				"title": "Moderate: perl-App-cpanminus:1.7044 security update",
+				"description": "The panminus is a script to get, unpack, build and install modules from CPAN.\n\nSecurity Fix(es):\n\n* perl-App-cpanminus: Insecure HTTP in App::cpanminus Allows Code Execution Vulnerability (CVE-2024-45321)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45321"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2308078"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2024:10219"
+					}
+				],
+				"published": "2024-12-19T04:18:05.672002Z"
+			}
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2024-45321",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45321"
+					}
+				]
+			}
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:10219.json"
+		]
+	}
+}
