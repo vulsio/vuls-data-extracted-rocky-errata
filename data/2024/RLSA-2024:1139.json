@@ -1,53 +1,37 @@
 {
-	"id": "RLSA-2024:7463",
+	"id": "RLSA-2024:1139",
 	"advisories": [
 		{
 			"content": {
-				"id": "RLSA-2024:7463",
-				"title": "Important: cups-filters security update",
-				"description": "The cups-filters package contains back ends, filters, and other software that was once part of the core Common UNIX Printing System (CUPS) distribution but is now maintained independently. \n\nSecurity Fix(es):\n\n* cups-browsed: cups-browsed binds on UDP INADDR_ANY:631 trusting any packet from any source ()\n\n* cups-filters: libcupsfilters: `cfGetPrinterAttributes` API does not perform sanitization on returned IPP attributes (CVE-2024-47076)\n\n* cups: libppd: remote command injection via attacker controlled data in PPD file ()\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"id": "RLSA-2024:1139",
+				"title": "Low: keylime security update",
+				"description": "Keylime is a TPM based highly scalable remote boot attestation and runtime integrity measurement solution.\n\nSecurity Fix(es):\n\n* keylime: Attestation failure when the quote's signature does not validate (CVE-2023-3674)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
 				"severity": [
 					{
 						"type": "vendor",
 						"source": "errata.rockylinux.org",
-						"vendor": "IMPORTANT"
+						"vendor": "LOW"
 					}
 				],
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47076"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3674"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2314252"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2314253"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2314256"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2222903"
 					},
 					{
 						"source": "errata.rockylinux.org",
-						"url": "https://errata.rockylinux.org/RLSA-2024:7463"
+						"url": "https://errata.rockylinux.org/RLSA-2024:1139"
 					}
 				],
-				"published": "2024-10-25T17:16:21.716473Z"
+				"published": "2024-05-10T14:32:42.380544Z"
 			},
 			"segments": [
 				{
-					"ecosystem": "rocky:8"
+					"ecosystem": "rocky:9"
 				}
 			]
 		}
@@ -55,56 +39,24 @@
 	"vulnerabilities": [
 		{
 			"content": {
-				"id": "CVE-2024-47076",
+				"id": "CVE-2023-3674",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47076"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3674"
 					}
 				]
 			},
 			"segments": [
 				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-47175",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-47176",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
+					"ecosystem": "rocky:9"
 				}
 			]
 		}
 	],
 	"detections": [
 		{
-			"ecosystem": "rocky:8",
+			"ecosystem": "rocky:9",
 			"conditions": [
 				{
 					"criteria": {
@@ -120,9 +72,11 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "cups-filters",
+											"name": "keylime",
 											"architectures": [
 												"aarch64",
+												"ppc64le",
+												"s390x",
 												"x86_64"
 											]
 										}
@@ -131,11 +85,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:1.20.0-35.el8_10"
+												"lt": "0:7.3.0-13.el9_3"
 											}
 										],
 										"fixed": [
-											"0:1.20.0-35.el8_10"
+											"0:7.3.0-13.el9_3"
 										]
 									}
 								}
@@ -150,10 +104,11 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "cups-filters-debuginfo",
+											"name": "keylime-base",
 											"architectures": [
 												"aarch64",
-												"i686",
+												"ppc64le",
+												"s390x",
 												"x86_64"
 											]
 										}
@@ -162,11 +117,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:1.20.0-35.el8_10"
+												"lt": "0:7.3.0-13.el9_3"
 											}
 										],
 										"fixed": [
-											"0:1.20.0-35.el8_10"
+											"0:7.3.0-13.el9_3"
 										]
 									}
 								}
@@ -181,10 +136,11 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "cups-filters-debugsource",
+											"name": "keylime-registrar",
 											"architectures": [
 												"aarch64",
-												"i686",
+												"ppc64le",
+												"s390x",
 												"x86_64"
 											]
 										}
@@ -193,11 +149,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:1.20.0-35.el8_10"
+												"lt": "0:7.3.0-13.el9_3"
 											}
 										],
 										"fixed": [
-											"0:1.20.0-35.el8_10"
+											"0:7.3.0-13.el9_3"
 										]
 									}
 								}
@@ -212,11 +168,9 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "cups-filters-devel",
+											"name": "keylime-selinux",
 											"architectures": [
-												"aarch64",
-												"i686",
-												"x86_64"
+												"noarch"
 											]
 										}
 									},
@@ -224,11 +178,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:1.20.0-35.el8_10"
+												"lt": "0:7.3.0-13.el9_3"
 											}
 										],
 										"fixed": [
-											"0:1.20.0-35.el8_10"
+											"0:7.3.0-13.el9_3"
 										]
 									}
 								}
@@ -243,10 +197,11 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "cups-filters-libs",
+											"name": "keylime-tenant",
 											"architectures": [
 												"aarch64",
-												"i686",
+												"ppc64le",
+												"s390x",
 												"x86_64"
 											]
 										}
@@ -255,11 +210,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:1.20.0-35.el8_10"
+												"lt": "0:7.3.0-13.el9_3"
 											}
 										],
 										"fixed": [
-											"0:1.20.0-35.el8_10"
+											"0:7.3.0-13.el9_3"
 										]
 									}
 								}
@@ -274,10 +229,11 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "cups-filters-libs-debuginfo",
+											"name": "keylime-verifier",
 											"architectures": [
 												"aarch64",
-												"i686",
+												"ppc64le",
+												"s390x",
 												"x86_64"
 											]
 										}
@@ -286,11 +242,43 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:1.20.0-35.el8_10"
+												"lt": "0:7.3.0-13.el9_3"
 											}
 										],
 										"fixed": [
-											"0:1.20.0-35.el8_10"
+											"0:7.3.0-13.el9_3"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "python3-keylime",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:7.3.0-13.el9_3"
+											}
+										],
+										"fixed": [
+											"0:7.3.0-13.el9_3"
 										]
 									}
 								}
@@ -304,7 +292,7 @@
 	"data_source": {
 		"id": "rocky-errata",
 		"raws": [
-			"vuls-data-raw-rocky-errata/2024/RLSA-2024:7463.json"
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:1139.json"
 		]
 	}
 }
