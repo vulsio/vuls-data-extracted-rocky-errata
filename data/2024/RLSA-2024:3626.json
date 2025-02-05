@@ -1,11 +1,11 @@
 {
-	"id": "RLSA-2024:7349",
+	"id": "RLSA-2024:3626",
 	"advisories": [
 		{
 			"content": {
-				"id": "RLSA-2024:7349",
-				"title": "Moderate: grafana security update",
-				"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* net/http: Denial of service due to improper 100-continue handling in net/http (CVE-2024-24791)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"id": "RLSA-2024:3626",
+				"title": "Moderate: libxml2 security update",
+				"description": "The libxml2 library is a development toolbox providing the implementation of\nvarious XML standards.\n\nSecurity Fix(es):\n\n* libxml2: use-after-free in XMLReader (CVE-2024-25062)\n\nFor more details about the security issue(s), including the impact,\na CVSS score, acknowledgments, and other related information, refer\nto the CVE page(s) listed in the References section.",
 				"severity": [
 					{
 						"type": "vendor",
@@ -16,18 +16,18 @@
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25062"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2295310"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2262726"
 					},
 					{
 						"source": "errata.rockylinux.org",
-						"url": "https://errata.rockylinux.org/RLSA-2024:7349"
+						"url": "https://errata.rockylinux.org/RLSA-2024:3626"
 					}
 				],
-				"published": "2024-10-25T17:16:21.716473Z"
+				"published": "2024-06-14T13:59:16.809606Z"
 			},
 			"segments": [
 				{
@@ -39,11 +39,11 @@
 	"vulnerabilities": [
 		{
 			"content": {
-				"id": "CVE-2024-24791",
+				"id": "CVE-2024-25062",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25062"
 					}
 				]
 			},
@@ -72,9 +72,10 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "grafana",
+											"name": "libxml2",
 											"architectures": [
 												"aarch64",
+												"i686",
 												"x86_64"
 											]
 										}
@@ -83,11 +84,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:9.2.10-18.el8_10"
+												"lt": "0:2.9.7-18.el8_10.1"
 											}
 										],
 										"fixed": [
-											"0:9.2.10-18.el8_10"
+											"0:2.9.7-18.el8_10.1"
 										]
 									}
 								}
@@ -102,9 +103,10 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "grafana-debuginfo",
+											"name": "libxml2-debuginfo",
 											"architectures": [
 												"aarch64",
+												"i686",
 												"x86_64"
 											]
 										}
@@ -113,11 +115,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:9.2.10-18.el8_10"
+												"lt": "0:2.9.7-18.el8_10.1"
 											}
 										],
 										"fixed": [
-											"0:9.2.10-18.el8_10"
+											"0:2.9.7-18.el8_10.1"
 										]
 									}
 								}
@@ -132,9 +134,10 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "grafana-debugsource",
+											"name": "libxml2-debugsource",
 											"architectures": [
 												"aarch64",
+												"i686",
 												"x86_64"
 											]
 										}
@@ -143,11 +146,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:9.2.10-18.el8_10"
+												"lt": "0:2.9.7-18.el8_10.1"
 											}
 										],
 										"fixed": [
-											"0:9.2.10-18.el8_10"
+											"0:2.9.7-18.el8_10.1"
 										]
 									}
 								}
@@ -162,7 +165,38 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "grafana-selinux",
+											"name": "libxml2-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:2.9.7-18.el8_10.1"
+											}
+										],
+										"fixed": [
+											"0:2.9.7-18.el8_10.1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "python3-libxml2",
 											"architectures": [
 												"aarch64",
 												"x86_64"
@@ -173,11 +207,41 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:9.2.10-18.el8_10"
+												"lt": "0:2.9.7-18.el8_10.1"
 											}
 										],
 										"fixed": [
-											"0:9.2.10-18.el8_10"
+											"0:2.9.7-18.el8_10.1"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "python3-libxml2-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:2.9.7-18.el8_10.1"
+											}
+										],
+										"fixed": [
+											"0:2.9.7-18.el8_10.1"
 										]
 									}
 								}
@@ -191,7 +255,7 @@
 	"data_source": {
 		"id": "rocky-errata",
 		"raws": [
-			"vuls-data-raw-rocky-errata/2024/RLSA-2024:7349.json"
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:3626.json"
 		]
 	}
 }

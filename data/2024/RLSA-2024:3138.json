@@ -1,11 +1,11 @@
 {
-	"id": "RLSA-2024:3618",
+	"id": "RLSA-2024:3138",
 	"advisories": [
 		{
 			"content": {
-				"id": "RLSA-2024:3618",
-				"title": "Moderate: kernel update",
-				"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: Marvin vulnerability side-channel leakage in the RSA decryption\noperation (CVE-2023-6240)\n\n* kernel: Information disclosure in vhost/vhost.c:vhost_new_msg()\n(CVE-2024-0340)\n\n* kernel: untrusted VMM can trigger int80 syscall handling (CVE-2024-25744)\n\n* kernel: i2c: i801: Fix block process call transactions (CVE-2024-26593)\n\n* kernel: pvrusb2: fix use after free on context disconnection (CVE-2023-52445)\n\n* kernel: x86/fpu: Stop relying on userspace for info to fault in xsave buffer\nthat cause loop forever (CVE-2024-26603)\n\n* kernel: use after free in i2c (CVE-2019-25162)\n\n* kernel: i2c: validate user data in compat ioctl (CVE-2021-46934)\n\n* kernel: media: dvbdev: Fix memory leak in dvb_media_device_free()\n(CVE-2020-36777)\n\n* kernel: usb: hub: Guard against accesses to uninitialized BOS descriptors\n(CVE-2023-52477)\n\n* kernel: mtd: require write permissions for locking and badblock ioctls\n(CVE-2021-47055)\n\n* kernel: net/smc: fix illegal rmb_desc access in SMC-D connection dump\n(CVE-2024-26615)\n\n* kernel: vt: fix memory overlapping when deleting chars in the buffer\n(CVE-2022-48627)\n\n* kernel: Integer Overflow in raid5_cache_count (CVE-2024-23307)\n\n* kernel: media: uvcvideo: out-of-bounds read in uvc_query_v4l2_menu()\n(CVE-2023-52565)\n\n* kernel: net: bridge: data races indata-races in br_handle_frame_finish()\n(CVE-2023-52578)\n\n* kernel: net: usb: smsc75xx: Fix uninit-value access in __smsc75xx_read_reg\n(CVE-2023-52528)\n\n* kernel: platform/x86: think-lmi: Fix reference leak (CVE-2023-52520)\n\n* kernel: RDMA/siw: Fix connection failure handling (CVE-2023-52513)\n\n* kernel: pid: take a reference when initializing `cad_pid` (CVE-2021-47118)\n\n* kernel: net/sched: act_ct: fix skb leak and crash on ooo frags\n(CVE-2023-52610)\n\n* kernel: netfilter: nf_tables: mark set as dead when unbinding anonymous set\nwith timeout (CVE-2024-26643)\n\n* kernel: netfilter: nf_tables: disallow anonymous set with timeout flag\n(CVE-2024-26642)\n\n* kernel: i2c: i801: Don&#39;t generate an interrupt on bus reset\n(CVE-2021-47153)\n\n* kernel: xhci: handle isoc Babble and Buffer Overrun events properly\n(CVE-2024-26659)\n\n* kernel: hwmon: (coretemp) Fix out-of-bounds memory access (CVE-2024-26664)\n\n* kernel: wifi: mac80211: fix race condition on enabling fast-xmit\n(CVE-2024-26779)\n\n* kernel: RDMA/srpt: Support specifying the srpt_service_guid parameter\n(CVE-2024-26744)\n\n* kernel: RDMA/qedr: Fix qedr_create_user_qp error flow (CVE-2024-26743)\n\n* kernel: tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc\n(CVE-2021-47185)\n\n* kernel: do_sys_name_to_handle(): use kzalloc() to fix kernel-infoleak\n(CVE-2024-26901)\n\n* kernel: RDMA/srpt: Do not register event handler until srpt device is fully\nsetup (CVE-2024-26872)\n\n* kernel: usb: ulpi: Fix debugfs directory leak (CVE-2024-26919)\n\n* kernel: usb: xhci: Add error handling in xhci_map_urb_for_dma (CVE-2024-26964)\n\n* kernel: USB: core: Fix deadlock in usb_deauthorize_interface()\n(CVE-2024-26934)\n\n* kernel: USB: core: Fix deadlock in port &#34;disable&#34; sysfs attribute\n(CVE-2024-26933)\n\n* kernel: fs: sysfs: Fix reference leak in sysfs_break_active_protection()\n(CVE-2024-26993)\n\n* kernel: fat: fix uninitialized field in nostale filehandles (CVE-2024-26973)\n\n* kernel: USB: usb-storage: Prevent divide-by-0 error in isd200_ata_command\n(CVE-2024-27059)\n\n* kernel: net:emac/emac-mac: Fix a use after free in emac_mac_tx_buf_send (CVE-2021-47013)\n\n* kernel: net: usb: fix memory leak in smsc75xx_bind (CVE-2021-47171)\n\n* kernel: powerpc/pseries: Fix potential memleak in papr_get_attr() (CVE-2022-48669)\n\n* kernel: uio: Fix use-after-free in uio_open (CVE-2023-52439)\n\n* kernel: wifi: ath9k: Fix potential array-index-out-of-bounds read in ath9k_htc_txstatus() (CVE-2023-52594)\n\n* kernel: wifi: rt2x00: restart beacon queue when hardware reset (CVE-2023-52595)",
+				"id": "RLSA-2024:3138",
+				"title": "Moderate: kernel security, bug fix, and enhancement update",
+				"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
 				"severity": [
 					{
 						"type": "vendor",
@@ -16,463 +16,395 @@
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-25162"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13631"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36777"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15505"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46934"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25656"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47013"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3753"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47055"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4204"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47118"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0500"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47153"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23222"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47171"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3565"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47185"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45934"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48627"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1513"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48669"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24023"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52439"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25775"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52445"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28464"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52477"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31083"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52513"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3567"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52520"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37453"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52528"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38409"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52565"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39189"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52578"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39192"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52594"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39193"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52595"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39194"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52598"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39198"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52606"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4133"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52607"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4244"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52610"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42754"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6240"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42755"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0340"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45863"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23307"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51779"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25744"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51780"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26593"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52340"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26603"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52434"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26610"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52448"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26615"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52489"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26642"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52574"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26643"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52580"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26659"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52581"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26664"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52620"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26693"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6121"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26694"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6176"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26743"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6622"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26744"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6915"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26779"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6932"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26872"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0841"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26892"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25742"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26897"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25743"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26901"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26602"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26919"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26609"
 					},
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26933"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26934"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26964"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26973"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26993"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27014"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27048"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27052"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27056"
-					},
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27059"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26671"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2250843"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1731000"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2257406"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1746732"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2263875"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1888726"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265271"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1930388"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265646"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1999589"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265654"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2039178"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265833"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2043520"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2266296"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2044578"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2266446"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2150953"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2266746"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2151959"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2266841"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2177759"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267038"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2179892"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267185"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2213132"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267355"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2218332"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267509"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2219359"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267705"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2221039"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267724"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2221463"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267758"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2221702"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267789"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2226777"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267797"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2226784"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267804"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2226787"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268291"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2226788"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268293"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2230042"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268309"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2231130"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268315"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2231410"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268317"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2235306"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2269213"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2239845"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2269856"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2239847"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2270080"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2244720"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2270879"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2250043"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2270881"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2253632"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2271469"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2254961"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2271476"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2254982"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2272780"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2255283"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2272791"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2256490"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273092"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2256822"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273094"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2257682"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273223"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2257979"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273260"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265285"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273262"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265653"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2274624"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267695"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275645"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267750"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275655"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267760"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275666"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267761"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275707"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2269189"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275777"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2269217"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278169"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2270836"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278237"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2270883"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278240"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278268"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278314"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278356"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278398"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278409"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278417"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278431"
-					},
-					{
-						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278537"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2272811"
 					},
 					{
 						"source": "errata.rockylinux.org",
-						"url": "https://errata.rockylinux.org/RLSA-2024:3618"
+						"url": "https://errata.rockylinux.org/RLSA-2024:3138"
 					}
 				],
 				"published": "2024-06-14T13:59:16.809606Z"
@@ -487,11 +419,11 @@
 	"vulnerabilities": [
 		{
 			"content": {
-				"id": "CVE-2019-25162",
+				"id": "CVE-2019-13631",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-25162"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13631"
 					}
 				]
 			},
@@ -503,11 +435,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2020-36777",
+				"id": "CVE-2019-15505",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36777"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15505"
 					}
 				]
 			},
@@ -519,11 +451,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2021-46934",
+				"id": "CVE-2020-25656",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46934"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25656"
 					}
 				]
 			},
@@ -535,11 +467,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2021-47013",
+				"id": "CVE-2021-3753",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47013"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3753"
 					}
 				]
 			},
@@ -551,11 +483,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2021-47055",
+				"id": "CVE-2021-4204",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47055"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4204"
 					}
 				]
 			},
@@ -567,11 +499,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2021-47118",
+				"id": "CVE-2022-0500",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47118"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0500"
 					}
 				]
 			},
@@ -583,11 +515,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2021-47153",
+				"id": "CVE-2022-23222",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47153"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23222"
 					}
 				]
 			},
@@ -599,11 +531,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2021-47171",
+				"id": "CVE-2022-3565",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47171"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3565"
 					}
 				]
 			},
@@ -615,11 +547,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2021-47185",
+				"id": "CVE-2022-45934",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47185"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45934"
 					}
 				]
 			},
@@ -631,11 +563,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2022-48627",
+				"id": "CVE-2023-1513",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48627"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1513"
 					}
 				]
 			},
@@ -647,11 +579,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2022-48669",
+				"id": "CVE-2023-24023",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48669"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24023"
 					}
 				]
 			},
@@ -663,11 +595,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52439",
+				"id": "CVE-2023-25775",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52439"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25775"
 					}
 				]
 			},
@@ -679,11 +611,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52445",
+				"id": "CVE-2023-28464",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52445"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28464"
 					}
 				]
 			},
@@ -695,11 +627,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52477",
+				"id": "CVE-2023-31083",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52477"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31083"
 					}
 				]
 			},
@@ -711,11 +643,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52513",
+				"id": "CVE-2023-3567",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52513"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3567"
 					}
 				]
 			},
@@ -727,11 +659,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52520",
+				"id": "CVE-2023-37453",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52520"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37453"
 					}
 				]
 			},
@@ -743,11 +675,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52528",
+				"id": "CVE-2023-38409",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52528"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38409"
 					}
 				]
 			},
@@ -759,11 +691,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52565",
+				"id": "CVE-2023-39189",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52565"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39189"
 					}
 				]
 			},
@@ -775,11 +707,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52578",
+				"id": "CVE-2023-39192",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52578"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39192"
 					}
 				]
 			},
@@ -791,11 +723,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52594",
+				"id": "CVE-2023-39193",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52594"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39193"
 					}
 				]
 			},
@@ -807,11 +739,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52595",
+				"id": "CVE-2023-39194",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52595"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39194"
 					}
 				]
 			},
@@ -823,11 +755,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52598",
+				"id": "CVE-2023-39198",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52598"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39198"
 					}
 				]
 			},
@@ -839,11 +771,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52606",
+				"id": "CVE-2023-4133",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52606"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4133"
 					}
 				]
 			},
@@ -855,11 +787,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52607",
+				"id": "CVE-2023-4244",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52607"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4244"
 					}
 				]
 			},
@@ -871,11 +803,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-52610",
+				"id": "CVE-2023-42754",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52610"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42754"
 					}
 				]
 			},
@@ -887,11 +819,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2023-6240",
+				"id": "CVE-2023-42755",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6240"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42755"
 					}
 				]
 			},
@@ -903,11 +835,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-0340",
+				"id": "CVE-2023-45863",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0340"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45863"
 					}
 				]
 			},
@@ -919,11 +851,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-23307",
+				"id": "CVE-2023-51779",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23307"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51779"
 					}
 				]
 			},
@@ -935,11 +867,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-25744",
+				"id": "CVE-2023-51780",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25744"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51780"
 					}
 				]
 			},
@@ -951,11 +883,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26593",
+				"id": "CVE-2023-52340",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26593"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52340"
 					}
 				]
 			},
@@ -967,11 +899,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26603",
+				"id": "CVE-2023-52434",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26603"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52434"
 					}
 				]
 			},
@@ -983,11 +915,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26610",
+				"id": "CVE-2023-52448",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26610"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52448"
 					}
 				]
 			},
@@ -999,11 +931,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26615",
+				"id": "CVE-2023-52489",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26615"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52489"
 					}
 				]
 			},
@@ -1015,11 +947,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26642",
+				"id": "CVE-2023-52574",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26642"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52574"
 					}
 				]
 			},
@@ -1031,11 +963,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26643",
+				"id": "CVE-2023-52580",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26643"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52580"
 					}
 				]
 			},
@@ -1047,11 +979,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26659",
+				"id": "CVE-2023-52581",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26659"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52581"
 					}
 				]
 			},
@@ -1063,11 +995,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26664",
+				"id": "CVE-2023-52620",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26664"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52620"
 					}
 				]
 			},
@@ -1079,11 +1011,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26693",
+				"id": "CVE-2023-6121",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26693"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6121"
 					}
 				]
 			},
@@ -1095,11 +1027,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26694",
+				"id": "CVE-2023-6176",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26694"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6176"
 					}
 				]
 			},
@@ -1111,11 +1043,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26743",
+				"id": "CVE-2023-6622",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26743"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6622"
 					}
 				]
 			},
@@ -1127,11 +1059,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26744",
+				"id": "CVE-2023-6915",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26744"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6915"
 					}
 				]
 			},
@@ -1143,11 +1075,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26779",
+				"id": "CVE-2023-6932",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26779"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6932"
 					}
 				]
 			},
@@ -1159,11 +1091,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26872",
+				"id": "CVE-2024-0841",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26872"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0841"
 					}
 				]
 			},
@@ -1175,11 +1107,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26892",
+				"id": "CVE-2024-25742",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26892"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25742"
 					}
 				]
 			},
@@ -1191,11 +1123,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26897",
+				"id": "CVE-2024-25743",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26897"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25743"
 					}
 				]
 			},
@@ -1207,11 +1139,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26901",
+				"id": "CVE-2024-26602",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26901"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26602"
 					}
 				]
 			},
@@ -1223,11 +1155,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26919",
+				"id": "CVE-2024-26609",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26919"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26609"
 					}
 				]
 			},
@@ -1239,155 +1171,11 @@
 		},
 		{
 			"content": {
-				"id": "CVE-2024-26933",
+				"id": "CVE-2024-26671",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26933"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-26934",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26934"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-26964",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26964"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-26973",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26973"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-26993",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26993"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-27014",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27014"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-27048",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27048"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-27052",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27052"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-27056",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27056"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "rocky:8"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "CVE-2024-27059",
-				"references": [
-					{
-						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27059"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26671"
 					}
 				]
 			},
@@ -1427,11 +1215,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1457,11 +1245,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1487,11 +1275,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1516,11 +1304,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1546,11 +1334,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1576,11 +1364,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1606,11 +1394,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1636,11 +1424,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1666,11 +1454,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1696,11 +1484,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1726,11 +1514,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1756,11 +1544,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1786,11 +1574,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1815,11 +1603,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1844,11 +1632,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1874,11 +1662,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1903,11 +1691,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1933,11 +1721,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1963,11 +1751,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -1993,11 +1781,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2023,11 +1811,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2053,11 +1841,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2083,11 +1871,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2113,11 +1901,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2143,11 +1931,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2173,11 +1961,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2203,11 +1991,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2233,11 +2021,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:4.18.0-553.5.1.el8_10"
+												"lt": "0:4.18.0-553.el8_10"
 											}
 										],
 										"fixed": [
-											"0:4.18.0-553.5.1.el8_10"
+											"0:4.18.0-553.el8_10"
 										]
 									}
 								}
@@ -2251,7 +2039,7 @@
 	"data_source": {
 		"id": "rocky-errata",
 		"raws": [
-			"vuls-data-raw-rocky-errata/2024/RLSA-2024:3618.json"
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:3138.json"
 		]
 	}
 }
