@@ -1,0 +1,129 @@
+{
+	"id": "RLSA-2024:4231",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2024:4231",
+				"title": "Moderate: python-jinja2 security update",
+				"description": "The python-jinja2 package contains Jinja2, a template engine written in pure Python. Jinja2 provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment. \n\nSecurity Fix(es):\n\n* jinja2: accepts keys containing non-attribute characters (CVE-2024-34064)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34064"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2279476"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2024:4231"
+					}
+				],
+				"published": "2024-07-15T12:17:49.133583Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2024-34064",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+							"base_score": 5.4,
+							"base_severity": "MEDIUM",
+							"temporal_score": 5.4,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 5.4,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-79"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34064"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "python3-jinja2",
+											"architectures": [
+												"noarch"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:2.10.1-5.el8_10"
+											}
+										],
+										"fixed": [
+											"0:2.10.1-5.el8_10"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:4231.json"
+		]
+	}
+}
