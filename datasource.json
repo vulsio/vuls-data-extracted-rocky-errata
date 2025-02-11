@@ -4,8 +4,8 @@
 	"raw": [
 		{
 			"url": "https://github.com/vulsio/vuls-data-raw-rocky-errata",
-			"commit": "27566d58fe9bed19cd84dec076679558cf36e8ce",
-			"date": "2025-02-11T06:06:54Z"
+			"commit": "f44d49e49de9db9d643694fa53080a794aedbd6a",
+			"date": "2025-02-11T12:08:35Z"
 		}
 	],
 	"extracted": {
