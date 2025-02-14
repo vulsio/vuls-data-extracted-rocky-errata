@@ -1,0 +1,173 @@
+{
+	"id": "RLSA-2025:0673",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2025:0673",
+				"title": "Important: git-lfs security update",
+				"description": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.\n\nSecurity Fix(es):\n\n* git-lfs: Git LFS permits exfiltration of credentials via crafted HTTP URLs (CVE-2024-53263)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-53263"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2338002"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2025:0673"
+					}
+				],
+				"published": "2025-02-13T20:35:44.459056Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2024-53263",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-53263"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:9"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:9",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "git-lfs",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:3.4.1-4.el9_4"
+											}
+										],
+										"fixed": [
+											"0:3.4.1-4.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "git-lfs-debuginfo",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:3.4.1-4.el9_4"
+											}
+										],
+										"fixed": [
+											"0:3.4.1-4.el9_4"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "git-lfs-debugsource",
+											"architectures": [
+												"aarch64",
+												"ppc64le",
+												"s390x",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:3.4.1-4.el9_4"
+											}
+										],
+										"fixed": [
+											"0:3.4.1-4.el9_4"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2025/RLSA-2025:0673.json"
+		]
+	}
+}

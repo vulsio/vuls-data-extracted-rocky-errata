@@ -1,0 +1,454 @@
+{
+	"id": "RLSA-2025:0595",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2025:0595",
+				"title": "Important: redis:6 security update",
+				"description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: Integer overflow in the Redis HRANDFIELD and ZRANDMEMBER commands may lead to denial-of-service (CVE-2023-22458)\n\n* redis: Integer overflow in the Redis SETRANGE and SORT/SORT_RO commands may result with false OOM panic (CVE-2022-35977)\n\n* redis: Specially crafted SRANDMEMBER, ZRANDMEMBER, and HRANDFIELD commands can trigger an integer overflow (CVE-2022-36021)\n\n* redis: String matching commands (like SCAN or KEYS) with a specially crafted pattern to trigger a denial-of-service attack (CVE-2023-25155)\n\n* redis: Insufficient validation of HINCRBYFLOAT command (CVE-2023-28856)\n\n* redis: heap overflow in the lua cjson and cmsgpack libraries (CVE-2022-24834)\n\n* redis: possible bypass of Unix socket permissions on startup (CVE-2023-45145)\n\n* redis: Lua library commands may lead to stack overflow and RCE in Redis (CVE-2024-31449)\n\n* redis: Denial-of-service due to unbounded pattern matching in Redis (CVE-2024-31228)\n\n* redis: Redis' Lua library commands may lead to remote code execution (CVE-2024-46981)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "IMPORTANT"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24834"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35977"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36021"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22458"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25155"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28856"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45145"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31228"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31449"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-46981"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2163132"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2163133"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2174305"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2174306"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2187525"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2221662"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2244940"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2317056"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2317058"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2336004"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2025:0595"
+					}
+				],
+				"published": "2025-02-13T20:34:26.141542Z"
+			}
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2022-24834",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+							"base_score": 7,
+							"base_severity": "HIGH",
+							"temporal_score": 7,
+							"temporal_severity": "HIGH",
+							"environmental_score": 7,
+							"environmental_severity": "HIGH"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-680"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24834"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2022-35977",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+							"base_score": 5.5,
+							"base_severity": "MEDIUM",
+							"temporal_score": 5.5,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 5.5,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-190"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35977"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2022-36021",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+							"base_score": 5.5,
+							"base_severity": "MEDIUM",
+							"temporal_score": 5.5,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 5.5,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-190->CWE-407"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36021"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2023-22458",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+							"base_score": 5.5,
+							"base_severity": "MEDIUM",
+							"temporal_score": 5.5,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 5.5,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-190"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22458"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2023-25155",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+							"base_score": 6.5,
+							"base_severity": "MEDIUM",
+							"temporal_score": 6.5,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 6.5,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-190"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25155"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2023-28856",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+							"base_score": 5.5,
+							"base_severity": "MEDIUM",
+							"temporal_score": 5.5,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 5.5,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-20"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28856"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2023-45145",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+							"base_score": 3.6,
+							"base_severity": "LOW",
+							"temporal_score": 3.6,
+							"temporal_severity": "LOW",
+							"environmental_score": 3.6,
+							"environmental_severity": "LOW"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-269"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45145"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2024-31228",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+							"base_score": 5.5,
+							"base_severity": "MEDIUM",
+							"temporal_score": 5.5,
+							"temporal_severity": "MEDIUM",
+							"environmental_score": 5.5,
+							"environmental_severity": "MEDIUM"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-674"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31228"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2024-31449",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+							"base_score": 7,
+							"base_severity": "HIGH",
+							"temporal_score": 7,
+							"temporal_severity": "HIGH",
+							"environmental_score": 7,
+							"environmental_severity": "HIGH"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"(CWE-121|CWE-20)"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31449"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2024-46981",
+				"severity": [
+					{
+						"type": "cvss_v31",
+						"source": "MITRE",
+						"cvss_v31": {
+							"vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+							"base_score": 7,
+							"base_severity": "HIGH",
+							"temporal_score": 7,
+							"temporal_severity": "HIGH",
+							"environmental_score": 7,
+							"environmental_severity": "HIGH"
+						}
+					}
+				],
+				"cwe": [
+					{
+						"source": "MITRE",
+						"cwe": [
+							"CWE-416"
+						]
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-46981"
+					}
+				]
+			}
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2025/RLSA-2025:0595.json"
+		]
+	}
+}
