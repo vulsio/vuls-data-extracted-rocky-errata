@@ -1,0 +1,2257 @@
+{
+	"id": "RLSA-2024:3618",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2024:3618",
+				"title": "Moderate: kernel update",
+				"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: Marvin vulnerability side-channel leakage in the RSA decryption\noperation (CVE-2023-6240)\n\n* kernel: Information disclosure in vhost/vhost.c:vhost_new_msg()\n(CVE-2024-0340)\n\n* kernel: untrusted VMM can trigger int80 syscall handling (CVE-2024-25744)\n\n* kernel: i2c: i801: Fix block process call transactions (CVE-2024-26593)\n\n* kernel: pvrusb2: fix use after free on context disconnection (CVE-2023-52445)\n\n* kernel: x86/fpu: Stop relying on userspace for info to fault in xsave buffer\nthat cause loop forever (CVE-2024-26603)\n\n* kernel: use after free in i2c (CVE-2019-25162)\n\n* kernel: i2c: validate user data in compat ioctl (CVE-2021-46934)\n\n* kernel: media: dvbdev: Fix memory leak in dvb_media_device_free()\n(CVE-2020-36777)\n\n* kernel: usb: hub: Guard against accesses to uninitialized BOS descriptors\n(CVE-2023-52477)\n\n* kernel: mtd: require write permissions for locking and badblock ioctls\n(CVE-2021-47055)\n\n* kernel: net/smc: fix illegal rmb_desc access in SMC-D connection dump\n(CVE-2024-26615)\n\n* kernel: vt: fix memory overlapping when deleting chars in the buffer\n(CVE-2022-48627)\n\n* kernel: Integer Overflow in raid5_cache_count (CVE-2024-23307)\n\n* kernel: media: uvcvideo: out-of-bounds read in uvc_query_v4l2_menu()\n(CVE-2023-52565)\n\n* kernel: net: bridge: data races indata-races in br_handle_frame_finish()\n(CVE-2023-52578)\n\n* kernel: net: usb: smsc75xx: Fix uninit-value access in __smsc75xx_read_reg\n(CVE-2023-52528)\n\n* kernel: platform/x86: think-lmi: Fix reference leak (CVE-2023-52520)\n\n* kernel: RDMA/siw: Fix connection failure handling (CVE-2023-52513)\n\n* kernel: pid: take a reference when initializing `cad_pid` (CVE-2021-47118)\n\n* kernel: net/sched: act_ct: fix skb leak and crash on ooo frags\n(CVE-2023-52610)\n\n* kernel: netfilter: nf_tables: mark set as dead when unbinding anonymous set\nwith timeout (CVE-2024-26643)\n\n* kernel: netfilter: nf_tables: disallow anonymous set with timeout flag\n(CVE-2024-26642)\n\n* kernel: i2c: i801: Don&#39;t generate an interrupt on bus reset\n(CVE-2021-47153)\n\n* kernel: xhci: handle isoc Babble and Buffer Overrun events properly\n(CVE-2024-26659)\n\n* kernel: hwmon: (coretemp) Fix out-of-bounds memory access (CVE-2024-26664)\n\n* kernel: wifi: mac80211: fix race condition on enabling fast-xmit\n(CVE-2024-26779)\n\n* kernel: RDMA/srpt: Support specifying the srpt_service_guid parameter\n(CVE-2024-26744)\n\n* kernel: RDMA/qedr: Fix qedr_create_user_qp error flow (CVE-2024-26743)\n\n* kernel: tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc\n(CVE-2021-47185)\n\n* kernel: do_sys_name_to_handle(): use kzalloc() to fix kernel-infoleak\n(CVE-2024-26901)\n\n* kernel: RDMA/srpt: Do not register event handler until srpt device is fully\nsetup (CVE-2024-26872)\n\n* kernel: usb: ulpi: Fix debugfs directory leak (CVE-2024-26919)\n\n* kernel: usb: xhci: Add error handling in xhci_map_urb_for_dma (CVE-2024-26964)\n\n* kernel: USB: core: Fix deadlock in usb_deauthorize_interface()\n(CVE-2024-26934)\n\n* kernel: USB: core: Fix deadlock in port &#34;disable&#34; sysfs attribute\n(CVE-2024-26933)\n\n* kernel: fs: sysfs: Fix reference leak in sysfs_break_active_protection()\n(CVE-2024-26993)\n\n* kernel: fat: fix uninitialized field in nostale filehandles (CVE-2024-26973)\n\n* kernel: USB: usb-storage: Prevent divide-by-0 error in isd200_ata_command\n(CVE-2024-27059)\n\n* kernel: net:emac/emac-mac: Fix a use after free in emac_mac_tx_buf_send (CVE-2021-47013)\n\n* kernel: net: usb: fix memory leak in smsc75xx_bind (CVE-2021-47171)\n\n* kernel: powerpc/pseries: Fix potential memleak in papr_get_attr() (CVE-2022-48669)\n\n* kernel: uio: Fix use-after-free in uio_open (CVE-2023-52439)\n\n* kernel: wifi: ath9k: Fix potential array-index-out-of-bounds read in ath9k_htc_txstatus() (CVE-2023-52594)\n\n* kernel: wifi: rt2x00: restart beacon queue when hardware reset (CVE-2023-52595)",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-25162"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36777"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46934"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47013"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47055"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47118"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47153"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47171"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47185"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48627"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48669"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52439"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52445"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52477"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52513"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52520"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52528"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52565"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52578"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52594"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52595"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52598"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52606"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52607"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52610"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6240"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0340"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23307"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25744"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26593"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26603"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26610"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26615"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26642"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26643"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26659"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26664"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26693"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26694"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26743"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26744"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26779"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26872"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26892"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26897"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26901"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26919"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26933"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26934"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26964"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26973"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26993"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27014"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27048"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27052"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27056"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27059"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2250843"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2257406"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2263875"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265271"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265646"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265654"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2265833"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2266296"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2266446"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2266746"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2266841"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267038"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267185"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267355"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267509"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267705"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267724"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267758"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267789"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267797"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2267804"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268291"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268293"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268309"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268315"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2268317"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2269213"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2269856"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2270080"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2270879"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2270881"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2271469"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2271476"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2272780"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2272791"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273092"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273094"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273223"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273260"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2273262"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2274624"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275645"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275655"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275666"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275707"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275777"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278169"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278237"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278240"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278268"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278314"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278356"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278398"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278409"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278417"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278431"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278537"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2024:3618"
+					}
+				],
+				"published": "2024-06-14T13:59:16.809606Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2019-25162",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-25162"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2020-36777",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36777"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2021-46934",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46934"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2021-47013",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47013"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2021-47055",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47055"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2021-47118",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47118"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2021-47153",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47153"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2021-47171",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47171"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2021-47185",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47185"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2022-48627",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48627"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2022-48669",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48669"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52439",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52439"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52445",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52445"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52477",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52477"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52513",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52513"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52520",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52520"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52528",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52528"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52565",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52565"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52578",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52578"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52594",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52594"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52595",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52595"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52598",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52598"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52606",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52606"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52607",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52607"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-52610",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52610"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2023-6240",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6240"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-0340",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0340"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-23307",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23307"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-25744",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25744"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26593",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26593"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26603",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26603"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26610",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26610"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26615",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26615"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26642",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26642"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26643",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26643"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26659",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26659"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26664",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26664"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26693",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26693"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26694",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26694"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26743",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26743"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26744",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26744"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26779",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26779"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26872",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26872"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26892",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26892"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26897",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26897"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26901",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26901"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26919",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26919"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26933",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26933"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26934",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26934"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26964",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26964"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26973",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26973"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-26993",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26993"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-27014",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27014"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-27048",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27048"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-27052",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27052"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-27056",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27056"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-27059",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27059"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "bpftool",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "bpftool-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-abi-stablelists",
+											"architectures": [
+												"noarch"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-core",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-cross-headers",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debug",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debug-core",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debug-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debug-devel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debug-modules",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debug-modules-extra",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debuginfo-common-aarch64",
+											"architectures": [
+												"aarch64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-debuginfo-common-x86_64",
+											"architectures": [
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-devel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-doc",
+											"architectures": [
+												"noarch"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-headers",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-modules",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-modules-extra",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-tools",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-tools-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-tools-libs",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "kernel-tools-libs-devel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "perf",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "perf-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "python3-perf",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "python3-perf-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:4.18.0-553.5.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:4.18.0-553.5.1.el8_10"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2024/RLSA-2024:3618.json"
+		]
+	}
+}

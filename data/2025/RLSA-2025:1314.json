@@ -1,0 +1,257 @@
+{
+	"id": "RLSA-2025:1314",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2025:1314",
+				"title": "Moderate: doxygen security update",
+				"description": "Doxygen can generate an online class browser (in HTML) and/or a reference manual (in LaTeX) from a set of documented source files. The documentation is extracted directly from the sources. Doxygen can also be configured to extract the code structure from undocumented source files. \n\nSecurity Fix(es):\n\n* jquery: Untrusted code execution via <option> tag in HTML passed to DOM manipulation methods (CVE-2020-11023)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11023"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1850004"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2025:1314"
+					}
+				],
+				"published": "2025-02-13T20:34:40.3928Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2020-11023",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11023"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "doxygen",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.14-13.el8_10"
+											}
+										],
+										"fixed": [
+											"1:1.8.14-13.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "doxygen-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.14-13.el8_10"
+											}
+										],
+										"fixed": [
+											"1:1.8.14-13.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "doxygen-debugsource",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.14-13.el8_10"
+											}
+										],
+										"fixed": [
+											"1:1.8.14-13.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "doxygen-doxywizard",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.14-13.el8_10"
+											}
+										],
+										"fixed": [
+											"1:1.8.14-13.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "doxygen-doxywizard-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.14-13.el8_10"
+											}
+										],
+										"fixed": [
+											"1:1.8.14-13.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "doxygen-latex",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "1:1.8.14-13.el8_10"
+											}
+										],
+										"fixed": [
+											"1:1.8.14-13.el8_10"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2025/RLSA-2025:1314.json"
+		]
+	}
+}

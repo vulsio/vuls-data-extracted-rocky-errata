@@ -1,0 +1,928 @@
+{
+	"id": "RLSA-2025:1338",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2025:1338",
+				"title": "Moderate: gcc-toolset-14-gcc security update",
+				"description": "The gcc-toolset-14-gcc package contains the GNU Compiler Collection version 14.\n\nSecurity Fix(es):\n\n* jquery: Untrusted code execution via <option> tag in HTML passed to DOM manipulation methods (CVE-2020-11023)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11023"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1850004"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2025:1338"
+					}
+				],
+				"published": "2025-02-13T20:34:26.141542Z"
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2020-11023",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11023"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		}
+	],
+	"detections": [
+		{
+			"ecosystem": "rocky:8",
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-c++",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-c++-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-gfortran",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-gfortran-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-plugin-annobin",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-plugin-annobin-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-plugin-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-gcc-plugin-devel-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libasan-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libatomic-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libgccjit",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libgccjit-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libgccjit-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libitm-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-liblsan-devel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libquadmath-devel",
+											"architectures": [
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libstdc++-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libstdc++-docs",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libtsan-devel",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-libubsan-devel",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-offload-nvptx",
+											"architectures": [
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "gcc-toolset-14-offload-nvptx-debuginfo",
+											"architectures": [
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "libasan8",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "libasan8-debuginfo",
+											"architectures": [
+												"aarch64",
+												"i686",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "libtsan2",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							},
+							{
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"type": "binary",
+										"binary": {
+											"name": "libtsan2-debuginfo",
+											"architectures": [
+												"aarch64",
+												"x86_64"
+											]
+										}
+									},
+									"affected": {
+										"type": "rpm",
+										"range": [
+											{
+												"lt": "0:14.2.1-7.1.el8_10"
+											}
+										],
+										"fixed": [
+											"0:14.2.1-7.1.el8_10"
+										]
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2025/RLSA-2025:1338.json"
+		]
+	}
+}

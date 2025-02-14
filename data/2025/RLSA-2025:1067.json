@@ -1,11 +1,11 @@
 {
-	"id": "RLSA-2023:0837",
+	"id": "RLSA-2025:1067",
 	"advisories": [
 		{
 			"content": {
-				"id": "RLSA-2023:0837",
-				"title": "Moderate: systemd security and bug fix update",
-				"description": "The systemd packages contain systemd, a system and service manager for Linux, compatible with the SysV and LSB init scripts. It provides aggressive parallelism capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, and keeps track of processes using Linux cgroups. In addition, it supports snapshotting and restoring of the system state, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. It can also work as a drop-in replacement for sysvinit.\n\nSecurity Fix(es):\n\n* systemd: local information leak due to systemd-coredump not respecting fs.suid_dumpable kernel setting (CVE-2022-4415)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* systemd doesn't record messages to the journal during boot (BZ#2164049)",
+				"id": "RLSA-2025:1067",
+				"title": "Moderate: kernel-rt security update",
+				"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: scsi: core: Fix unremoved procfs host directory regression (CVE-2024-26935)\n\n* kernel: arm64/sve: Discard stale CPU state when handling SVE traps (CVE-2024-50275)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
 				"severity": [
 					{
 						"type": "vendor",
@@ -16,22 +16,26 @@
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4415"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26935"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50275"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2155515"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2278235"
 					},
 					{
 						"source": "Red Hat",
-						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2164049"
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2327198"
 					},
 					{
 						"source": "errata.rockylinux.org",
-						"url": "https://errata.rockylinux.org/RLSA-2023:0837"
+						"url": "https://errata.rockylinux.org/RLSA-2025:1067"
 					}
 				],
-				"published": "2023-02-22T01:08:44.136543Z"
+				"published": "2025-02-13T20:34:35.372275Z"
 			},
 			"segments": [
 				{
@@ -43,34 +47,27 @@
 	"vulnerabilities": [
 		{
 			"content": {
-				"id": "CVE-2022-4415",
-				"severity": [
-					{
-						"type": "cvss_v31",
-						"source": "MITRE",
-						"cvss_v31": {
-							"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-							"base_score": 5.5,
-							"base_severity": "MEDIUM",
-							"temporal_score": 5.5,
-							"temporal_severity": "MEDIUM",
-							"environmental_score": 5.5,
-							"environmental_severity": "MEDIUM"
-						}
-					}
-				],
-				"cwe": [
-					{
-						"source": "MITRE",
-						"cwe": [
-							"CWE-200"
-						]
-					}
-				],
+				"id": "CVE-2024-26935",
 				"references": [
 					{
 						"source": "MITRE",
-						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4415"
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26935"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "rocky:8"
+				}
+			]
+		},
+		{
+			"content": {
+				"id": "CVE-2024-50275",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50275"
 					}
 				]
 			},
@@ -99,10 +96,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd",
+											"name": "kernel-rt",
 											"architectures": [
-												"aarch64",
-												"i686",
 												"x86_64"
 											]
 										}
@@ -111,11 +106,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -130,10 +125,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-container",
+											"name": "kernel-rt-core",
 											"architectures": [
-												"aarch64",
-												"i686",
 												"x86_64"
 											]
 										}
@@ -142,11 +135,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -161,10 +154,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-container-debuginfo",
+											"name": "kernel-rt-debug",
 											"architectures": [
-												"aarch64",
-												"i686",
 												"x86_64"
 											]
 										}
@@ -173,11 +164,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -192,10 +183,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-debuginfo",
+											"name": "kernel-rt-debug-core",
 											"architectures": [
-												"aarch64",
-												"i686",
 												"x86_64"
 											]
 										}
@@ -204,11 +193,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -223,10 +212,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-debugsource",
+											"name": "kernel-rt-debug-debuginfo",
 											"architectures": [
-												"aarch64",
-												"i686",
 												"x86_64"
 											]
 										}
@@ -235,11 +222,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -254,10 +241,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-devel",
+											"name": "kernel-rt-debug-devel",
 											"architectures": [
-												"aarch64",
-												"i686",
 												"x86_64"
 											]
 										}
@@ -266,11 +251,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -285,9 +270,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-journal-remote",
+											"name": "kernel-rt-debug-kvm",
 											"architectures": [
-												"aarch64",
 												"x86_64"
 											]
 										}
@@ -296,11 +280,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -315,9 +299,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-journal-remote-debuginfo",
+											"name": "kernel-rt-debug-modules",
 											"architectures": [
-												"aarch64",
 												"x86_64"
 											]
 										}
@@ -326,11 +309,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -345,10 +328,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-libs",
+											"name": "kernel-rt-debug-modules-extra",
 											"architectures": [
-												"aarch64",
-												"i686",
 												"x86_64"
 											]
 										}
@@ -357,11 +338,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -376,10 +357,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-libs-debuginfo",
+											"name": "kernel-rt-debuginfo",
 											"architectures": [
-												"aarch64",
-												"i686",
 												"x86_64"
 											]
 										}
@@ -388,11 +367,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -407,9 +386,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-pam",
+											"name": "kernel-rt-debuginfo-common-x86_64",
 											"architectures": [
-												"aarch64",
 												"x86_64"
 											]
 										}
@@ -418,11 +396,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -437,9 +415,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-pam-debuginfo",
+											"name": "kernel-rt-devel",
 											"architectures": [
-												"aarch64",
 												"x86_64"
 											]
 										}
@@ -448,11 +425,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -467,9 +444,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-tests",
+											"name": "kernel-rt-kvm",
 											"architectures": [
-												"aarch64",
 												"x86_64"
 											]
 										}
@@ -478,11 +454,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -497,9 +473,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-tests-debuginfo",
+											"name": "kernel-rt-modules",
 											"architectures": [
-												"aarch64",
 												"x86_64"
 											]
 										}
@@ -508,11 +483,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -527,9 +502,8 @@
 									"package": {
 										"type": "binary",
 										"binary": {
-											"name": "systemd-udev",
+											"name": "kernel-rt-modules-extra",
 											"architectures": [
-												"aarch64",
 												"x86_64"
 											]
 										}
@@ -538,41 +512,11 @@
 										"type": "rpm",
 										"range": [
 											{
-												"lt": "0:239-68.el8_7.4"
+												"lt": "0:4.18.0-553.37.1.rt7.378.el8_10"
 											}
 										],
 										"fixed": [
-											"0:239-68.el8_7.4"
-										]
-									}
-								}
-							},
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
-										"type": "binary",
-										"binary": {
-											"name": "systemd-udev-debuginfo",
-											"architectures": [
-												"aarch64",
-												"x86_64"
-											]
-										}
-									},
-									"affected": {
-										"type": "rpm",
-										"range": [
-											{
-												"lt": "0:239-68.el8_7.4"
-											}
-										],
-										"fixed": [
-											"0:239-68.el8_7.4"
+											"0:4.18.0-553.37.1.rt7.378.el8_10"
 										]
 									}
 								}
@@ -586,7 +530,7 @@
 	"data_source": {
 		"id": "rocky-errata",
 		"raws": [
-			"vuls-data-raw-rocky-errata/2023/RLSA-2023:0837.json"
+			"vuls-data-raw-rocky-errata/2025/RLSA-2025:1067.json"
 		]
 	}
 }

@@ -1,0 +1,72 @@
+{
+	"id": "RLSA-2025:0739",
+	"advisories": [
+		{
+			"content": {
+				"id": "RLSA-2025:0739",
+				"title": "Moderate: mariadb:10.5 security update",
+				"description": "MariaDB is a multi-user, multi-threaded SQL database server that is binary compatible with MySQL. \n\nSecurity Fix(es):\n\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2023) (CVE-2023-22084)\n\n* mysql: Client: mysqldump unspecified vulnerability (CPU Apr 2024) (CVE-2024-21096)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "errata.rockylinux.org",
+						"vendor": "MODERATE"
+					}
+				],
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22084"
+					},
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21096"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2245023"
+					},
+					{
+						"source": "Red Hat",
+						"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275452"
+					},
+					{
+						"source": "errata.rockylinux.org",
+						"url": "https://errata.rockylinux.org/RLSA-2025:0739"
+					}
+				],
+				"published": "2025-02-13T20:34:26.141542Z"
+			}
+		}
+	],
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "CVE-2023-22084",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22084"
+					}
+				]
+			}
+		},
+		{
+			"content": {
+				"id": "CVE-2024-21096",
+				"references": [
+					{
+						"source": "MITRE",
+						"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21096"
+					}
+				]
+			}
+		}
+	],
+	"data_source": {
+		"id": "rocky-errata",
+		"raws": [
+			"vuls-data-raw-rocky-errata/2025/RLSA-2025:0739.json"
+		]
+	}
+}
